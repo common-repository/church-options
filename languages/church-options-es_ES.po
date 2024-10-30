@@ -1,0 +1,2249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Church Options\n"
+"POT-Creation-Date: 2019-06-11 20:20-0500\n"
+"PO-Revision-Date: 2019-06-11 20:32-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: church-options.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: church-options.php:207
+#, fuzzy
+msgid ""
+"Church Options has not been tested with your version of Wordpress. It may "
+"still work though..."
+msgstr ""
+"Church Options no ha sido probado con tu versión de WordPress. Todavía puede "
+"funcionar sin embargo..."
+
+#: church-options.php:353
+#, fuzzy
+msgid ""
+"The Church Options plugin creates all of the custom post types churches need "
+"for an effective Web site."
+msgstr ""
+"Una solución todo en uno para que las iglesias agreguen los tipos de "
+"publicaciones personalizadas y los campos personalizados que necesitan para "
+"un sitio web eficaz."
+
+#: church-options.php:358 church-options.php:383 church-options.php:497
+#: cpt/church-announcements.php:9 cpt/church-announcements.php:14
+#: cpt/church-announcements.php:51
+msgid "Announcements"
+msgstr "Anuncios"
+
+#: church-options.php:359 church-options.php:384 church-options.php:502
+#: cpt/church-events.php:9 cpt/church-events.php:14
+msgid "Events"
+msgstr "Eventos"
+
+#: church-options.php:360 church-options.php:385 church-options.php:514
+#: cpt/church-sermons.php:9 cpt/church-sermons.php:14
+msgid "Sermons"
+msgstr "Sermones"
+
+#: church-options.php:361 church-options.php:386 church-options.php:509
+#: cpt/church-ministries.php:9 cpt/church-ministries.php:14
+#, fuzzy
+msgid "Ministries"
+msgstr "Ministerios"
+
+#: church-options.php:362 church-options.php:387 church-options.php:521
+#: cpt/church-people.php:9 cpt/church-people.php:10 cpt/church-people.php:14
+msgid "People"
+msgstr "Personas"
+
+#: church-options.php:363 church-options.php:388 church-options.php:526
+#: cpt/church-verses.php:9 cpt/church-verses.php:14
+#, fuzzy
+msgid "Verses"
+msgstr "Versos"
+
+#: church-options.php:377
+#: lib/advanced-custom-fields/core/controllers/export.php:300
+#: lib/advanced-custom-fields/core/fields/tab.php:65
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: church-options.php:378
+#, fuzzy
+msgid ""
+"Click the tabs below for detailed instructions for using the custom post "
+"types."
+msgstr ""
+"Haga clic en las siguientes pestañas para obtener instrucciones detalladas "
+"sobre el uso de los tipos de publicación personalizados."
+
+#: church-options.php:389
+msgid "Contact"
+msgstr "Contacto"
+
+#: church-options.php:394
+#, fuzzy
+msgid ""
+"Once the Announcements post type has been selected in the Church Options "
+"settings, the Announcements will appear in the sidebar under \"Comments\"."
+msgstr ""
+"Una vez que se haya seleccionado el tipo de publicación anuncios en la "
+"configuración de opciones de la iglesia, los anuncios aparecerán en la barra "
+"lateral de \"Comentarios\"."
+
+#: church-options.php:396
+#, fuzzy
+msgid ""
+"Click on \"Announcements\" and choose \"Add New\", just like a regular post."
+msgstr ""
+"Haga clic en \"anuncios\" y elija \"añadir nuevo\", al igual que una "
+"publicación regular."
+
+#: church-options.php:397
+#, fuzzy
+msgid ""
+"Fill in the title as usual, then enter what you want the announcement to say "
+"in the content area."
+msgstr ""
+"Rellena el título como de costumbre, luego ingresa lo que quieres que diga "
+"el anuncio en el área de contenido."
+
+#: church-options.php:398
+#, fuzzy
+msgid "Enter the information for up to two contacts. This is not required."
+msgstr ""
+"Introduzca la información de hasta dos contactos. Esto no es necesario."
+
+#: church-options.php:399
+#, fuzzy
+msgid ""
+"Then choose the date you want the announcement to stop showing. This uses a "
+"standard date picker: just click the field, then click the day of the month "
+"in the calendar that appears."
+msgstr ""
+"A continuación, elija la fecha en la que desea que el anuncio deje de "
+"mostrarse. Esto utiliza un selector de fecha estándar: simplemente haga clic "
+"en el campo y, a continuación, haga clic en el día del mes en el calendario "
+"que aparece."
+
+#: church-options.php:400
+#, fuzzy
+msgid "Lastly, click the \"Publish\" button as usual."
+msgstr "Por último, haga clic en el botón \"publicar\" como de costumbre."
+
+#: church-options.php:402
+#, fuzzy
+msgid ""
+"There are two ways of displaying Announcements: the Slider widget and the "
+"Bootstrap Carousel widget. The Announcements Slider widget has several "
+"options for transition and timing, while the Boostrap Carousel is a simple "
+"sliding carousel. Both will display the announcements which have not "
+"expired, according to the date entered in the \"Expiration Date\" field. The "
+"announcement content can be styled, but it is best to keep such styling to a "
+"minimum to prevent beaking the layout of the widget."
+msgstr ""
+"Hay dos formas de mostrar anuncios: el widget deslizador y el widget "
+"secuencia de bootstrap. El widget anuncios Slider tiene varias opciones para "
+"la transición y el tiempo, mientras que Boostrap Carousel es un simple "
+"carrusel deslizante. Ambos mostrarán los anuncios que no hayan expirado, "
+"según la fecha introducida en el campo \"fecha de caducidad\". El contenido "
+"del anuncio puede ser de estilo, pero es mejor mantener este estilo al "
+"mínimo para evitar que el diseño del widget."
+
+#: church-options.php:405
+#, fuzzy
+msgid ""
+"The Events post type has many fields that can be filled in for many "
+"different situations. Activating the Events post type also makes available "
+"the Events widgets. There is one for a horizontal layout and one for "
+"vertical."
+msgstr ""
+"El tipo de entrada Events tiene muchos campos que se pueden rellenar para "
+"muchas situaciones diferentes. Activar el tipo de mensaje de eventos también "
+"pone a disposición los widgets de eventos. Hay uno para un diseño horizontal "
+"y otro para vertical."
+
+#: church-options.php:407
+#, fuzzy
+msgid "Select the Events in the sidebar and choose \"Add New\"."
+msgstr "Seleccione los eventos en la barra lateral y elija \"Agregar nuevo\"."
+
+#: church-options.php:408
+msgid "Enter the event title in the title field."
+msgstr "Por favor, coloque la referencia en el campo de título."
+
+#: church-options.php:409
+#, fuzzy
+msgid "Fill in the event details in the content area."
+msgstr "Rellene los detalles del evento en el área de contenido."
+
+#: church-options.php:411
+#, fuzzy
+msgid ""
+"Most of the rest of the fields are optional, but it is recommended that the "
+"start date and time be filled in as well as the contact persons. Categories "
+"and tags can be added, and can be searched, but they do not appear on the "
+"front end."
+msgstr ""
+"La mayor parte del resto de los campos son opcionales, pero se recomienda "
+"rellenar la fecha y hora de inicio, así como las personas de contacto. Se "
+"pueden agregar categorías y etiquetas, y se pueden buscar, pero no aparecen "
+"en el front-end."
+
+#: church-options.php:412
+#, fuzzy
+msgid ""
+"The Events widgets will display different amounts of information depending "
+"on whether it is the vertical or horizontal version. The vertical version "
+"displays less due to the need to conserve space in the sidebar and footer "
+"areas."
+msgstr ""
+"Los widgets de eventos mostrarán diferentes cantidades de información en "
+"función de si se trata de la versión vertical u horizontal. La versión "
+"vertical muestra menos debido a la necesidad de conservar espacio en las "
+"áreas de la barra lateral y del pie de página."
+
+#: church-options.php:413
+#, fuzzy
+#| msgid "Events"
+msgid "Events page"
+msgstr "Página de eventos"
+
+#: church-options.php:414
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Events\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the events."
+msgstr ""
+"Cree una nueva página y elija la plantilla \"Events\" en el menú desplegable "
+"\"plantilla\" en el lado derecho bajo \"atributos de la página\". Cualquier "
+"texto ingresado se mostrará encima de los eventos."
+
+#: church-options.php:417
+#, fuzzy
+msgid ""
+"The Sermons post type is intended for making available recordings of the "
+"sermons in the MP3 format. The MP3s files can be downloaded or listened to "
+"right on the Web site. Other audio formats can be used, but MP3 is "
+"recommended for the greatest compatabilty."
+msgstr ""
+"El tipo de poste de sermones está destinado a hacer grabaciones disponibles "
+"de los sermones en formato MP3. Los archivos MP3 se pueden descargar o "
+"escuchar a la derecha en el sitio Web. Otros formatos de audio se pueden "
+"utilizar, pero MP3 se recomienda para la mayor compatibilidad."
+
+#: church-options.php:418
+#, fuzzy
+msgid "To make a Sermons post"
+msgstr "Para hacer un post Sermons"
+
+#: church-options.php:420
+#, fuzzy
+msgid ""
+"Select the \"Add New\" link under the \"Sermons\" post type in the sidebar."
+msgstr ""
+"Selecciona el enlace \"añadir nuevo\" bajo el tipo de publicación \"sermones"
+"\" en la barra lateral."
+
+#: church-options.php:421
+msgid "Enter the sermon title in the title field."
+msgstr "Por favor, coloque la referencia en el campo de título."
+
+#: church-options.php:422
+#, fuzzy
+msgid "Enter a short summary of the sermon in the content area."
+msgstr "Escriba un breve resumen del sermón en el área de contenido."
+
+#: church-options.php:423
+#, fuzzy
+msgid "Choose the MP3 file from the field selector under the content area."
+msgstr "Elija el archivo MP3 del selector de campos en el área de contenido."
+
+#: church-options.php:424
+#, fuzzy
+msgid ""
+"The categories can be used to add topics of the sermons which can be "
+"searched."
+msgstr ""
+"Las categorías se pueden utilizar para añadir temas de los sermones que se "
+"pueden buscar."
+
+#: church-options.php:426
+msgid "Sermons page"
+msgstr "Página de Sermones"
+
+#: church-options.php:427
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Sermons\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the sermons."
+msgstr ""
+"Cree una nueva página y elija la plantilla \"sermones\" en el menú "
+"desplegable \"plantilla\" en el lado derecho bajo \"atributos de la página"
+"\". Cualquier texto ingresado se mostrará encima de los sermones."
+
+#: church-options.php:430
+#, fuzzy
+msgid ""
+"The Ministries post type is used to present the church's several ministries. "
+"Since these don't change very often, unlike events, they are expected to be "
+"a little more flamboyant in their design. The Ministries widgets supprt "
+"featured images, and can withstand more formatting of the descriptive text."
+msgstr ""
+"El tipo de puesto de los ministerios se utiliza para presentar los diversos "
+"ministerios de la iglesia. Dado que estos no cambian muy a menudo, a "
+"diferencia de los eventos, se espera que sean un poco más extravagantes en "
+"su diseño. Los widgets de ministerios supprt imágenes destacadas, y pueden "
+"soportar más formato del texto descriptivo."
+
+#: church-options.php:431
+msgid "Ministries page"
+msgstr "Página de Ministerios"
+
+#: church-options.php:432
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Ministries\" template from the \"Template"
+"\" dropdown on the right side under \"Page Attributes\". Any text entered "
+"will be displayed above the ministries."
+msgstr ""
+"Cree una nueva página y elija la plantilla \"ministerios\" en el menú "
+"desplegable \"plantilla\" en el lado derecho bajo \"atributos de página\". "
+"Cualquier texto ingresado se mostrará encima de los ministerios."
+
+#: church-options.php:435
+#, fuzzy
+msgid ""
+"The People post type is used for the church staff. They should be entered in "
+"the order they are to be displayed. The \"Staff\" widget only displays the "
+"name and title, but the Staff page displays the full content entered in the "
+"People post."
+msgstr ""
+"El tipo de publicación People se utiliza para el personal de la iglesia. "
+"Deben introducirse en el orden en que deben mostrarse. El widget \"pentagrama"
+"\" solo muestra el nombre y el título, pero la página personal muestra el "
+"contenido completo introducido en la publicación People."
+
+#: church-options.php:436
+#, fuzzy
+msgid ""
+"If the person's email address and phone number are entered into the "
+"appropriate fields in the \"Add New People\" screen, tapping on the person's "
+"name will begin an email and tapping the title will initiate a phone call in "
+"the widgets."
+msgstr ""
+"Si la dirección de correo electrónico y el número de teléfono de la persona "
+"se introducen en los campos apropiados en la pantalla \"añadir gente nueva"
+"\", pulsando sobre el nombre de la persona se iniciará un correo electrónico "
+"y tocando el título se iniciará una llamada telefónica en los widgets."
+
+#: church-options.php:437
+msgid "Staff page"
+msgstr "Página de personal"
+
+#: church-options.php:438
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Staff\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the staff."
+msgstr ""
+"Cree una nueva página y elija la plantilla \"staff\" en el menú desplegable "
+"\"template\" (plantilla) en el lado derecho bajo \"atributos de página\". "
+"Cualquier texto ingresado se mostrará encima del pentagrama."
+
+#: church-options.php:441
+#, fuzzy
+msgid ""
+"The Verses post type is intended only for use with the Random Verses widget "
+"that comes with this plugin. They can also be used with any widget that "
+"allows selection of post types. Since the widget simply displays a random "
+"verse post, there are no settings and no dedicated page for displaying them."
+msgstr ""
+"El tipo de publicación versículos está destinado sólo para su uso con el "
+"widget de versículos aleatorios que viene con este plugin. También se pueden "
+"utilizar con cualquier widget que permita la selección de tipos de "
+"publicaciones. Dado que el widget simplemente muestra una publicación de "
+"verso aleatorio, no hay ninguna configuración y ninguna página dedicada para "
+"mostrarlos."
+
+#: church-options.php:444
+#, fuzzy
+msgid ""
+"Below you will find the code we used with Contact Form 7 to create the "
+"contact form used on the Contact page in the HTML mockup. Simply copy all of "
+"the code and paste it into the \"Form\" section."
+msgstr ""
+"A continuación encontrará el código que usamos con el formulario de contacto "
+"7 para crear el formulario de contacto que se utiliza en la página de "
+"contacto en el modelo HTML. Simplemente copie todo el código y péguelo en la "
+"sección \"formulario\"."
+
+#: church-options.php:500
+#, fuzzy
+msgid "Check this box to use the Announcements post type."
+msgstr "Active esta casilla para usar el tipo de publicación anuncios."
+
+#: church-options.php:505
+#, fuzzy
+msgid "Check this box to use the Events post type."
+msgstr "Active esta casilla para usar el tipo de publicación eventos."
+
+#: church-options.php:512
+#, fuzzy
+msgid "Check this box to use the Ministries post type."
+msgstr "Marque esta casilla para utilizar el tipo de publicación ministerios."
+
+#: church-options.php:517
+#, fuzzy
+msgid "Check this box to use the Sermons post type."
+msgstr "Marque esta casilla para utilizar el tipo de publicación Sermons."
+
+#: church-options.php:524
+#, fuzzy
+msgid "Check this box to use the People post type."
+msgstr "Active esta casilla para usar el tipo de publicación personas."
+
+#: church-options.php:529
+#, fuzzy
+msgid "Check this box to use the Verses post type."
+msgstr "Marque esta casilla para usar el tipo de publicación versos."
+
+#: cpt/church-announcements.php:10
+msgid "Announcement"
+msgstr "Anuncio"
+
+#: cpt/church-announcements.php:55
+msgid "Expiration Date"
+msgstr "Fecha de expiración"
+
+#: cpt/church-announcements.php:58
+#, fuzzy
+msgid ""
+"Please choose the date you want the announcement to stop being shown, "
+"typically the day after whatever the announcement is about. The announcement "
+"will not be shown but will still be available in search."
+msgstr ""
+"Por favor, elija la fecha en la que desea que el anuncio deje de mostrarse, "
+"típicamente el día después de lo que el anuncio se trata. El anuncio no se "
+"mostrará, pero seguirá estando disponible en la búsqueda."
+
+#: cpt/church-announcements.php:66
+#, fuzzy
+msgid "Contact Name 1"
+msgstr "Nombre de contacto 1"
+
+#: cpt/church-announcements.php:78
+#, fuzzy
+msgid "Contact Number 1"
+msgstr "Número de contacto 1"
+
+#: cpt/church-announcements.php:82 cpt/church-announcements.php:107
+#, fuzzy
+msgid "Start with area code, no dashes"
+msgstr "Comience con el código de área, sin guiones"
+
+#: cpt/church-announcements.php:91
+#, fuzzy
+msgid "Contact Name 2"
+msgstr "Nombre de contacto 2"
+
+#: cpt/church-announcements.php:103
+#, fuzzy
+msgid "Contact Number 2"
+msgstr "Número de contacto 2"
+
+#: cpt/church-events.php:10
+msgid "Event"
+msgstr "Evento"
+
+#: cpt/church-events.php:42
+msgid "Event Options"
+msgstr "Opciones del evento"
+
+#: cpt/church-events.php:46
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: cpt/church-events.php:49
+#, fuzzy
+msgid "Please choose the day on which this event will begin"
+msgstr "Por favor, elija el día en el que comenzará este evento"
+
+#: cpt/church-events.php:56
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: cpt/church-events.php:59
+#, fuzzy
+msgid ""
+"Please choose the day on which this event will end. If it occurs on only one "
+"day feel free to leave this field empty."
+msgstr ""
+"Por favor, elija el día en el que terminará este evento. Si ocurre en un "
+"solo día, siéntase libre de dejar este campo vacío."
+
+#: cpt/church-events.php:66
+msgid "Start Time"
+msgstr "Hora de inicio"
+
+#: cpt/church-events.php:69
+#, fuzzy
+msgid "Please enter the time at which this event starts."
+msgstr "Por favor, introduzca la hora en la que comienza este evento."
+
+#: cpt/church-events.php:79
+msgid "End Time"
+msgstr "Hora de finalización"
+
+#: cpt/church-events.php:82
+#, fuzzy
+msgid ""
+"Please enter the time at which this event ends. If it is an open-ended "
+"event, just leave this field empty."
+msgstr ""
+"Por favor, introduzca la hora en la que finaliza este evento. Si se trata de "
+"un evento de composición abierta, simplemente deje este campo vacío."
+
+#: cpt/church-events.php:92
+#: lib/advanced-custom-fields/core/controllers/field_group.php:398
+msgid "Location"
+msgstr "Ubicación"
+
+#: cpt/church-events.php:95
+#, fuzzy
+msgid "Please enter the place at which this event will take place."
+msgstr ""
+"Por favor, introduzca el lugar en el que se llevará a cabo este evento."
+
+#: cpt/church-events.php:105
+#, fuzzy
+msgid "Google Map Link"
+msgstr "Enlace de Google Map"
+
+#: cpt/church-events.php:108
+msgid ""
+"Go to <a href=\"http://maps.google.com\" target=\"_blank\">maps.google.com</"
+"a> and find the location, click on \"Share\", copy the link, then paste it "
+"into this field."
+msgstr ""
+"Vaya a < a href = \"http://maps.google.com\" target = \"_ blank\" > maps."
+"google.com </a> y encuentre la ubicación, haga clic en \"compartir\", copie "
+"el enlace y, a continuación, péguelo en este campo."
+
+#: cpt/church-events.php:117
+msgid "Expiration"
+msgstr "Vencimiento"
+
+#: cpt/church-events.php:120
+#, fuzzy
+msgid ""
+"Please choose the date you want the event stop being shown, typically the "
+"day after the event. The event will not be shown on the Events page after "
+"that date but will still be available in search."
+msgstr ""
+"Por favor, elija la fecha en la que desea que se muestre el evento, "
+"normalmente el día después del evento. El evento no se mostrará en la página "
+"eventos después de esa fecha, pero seguirá estando disponible en la búsqueda."
+
+#: cpt/church-events.php:127
+msgid "Contact Name"
+msgstr "Nombre de contacto"
+
+#: cpt/church-events.php:130
+#, fuzzy
+msgid "Please enter the name of the person to contact about this event."
+msgstr ""
+"Por favor, introduzca el nombre de la persona a la que contactar sobre este "
+"evento."
+
+#: cpt/church-events.php:140
+msgid "Contact Number"
+msgstr "Número de contacto"
+
+#: cpt/church-events.php:143
+#, fuzzy
+msgid "Please enter the phone number of the contact person."
+msgstr "Por favor, introduzca el número de teléfono de la persona de contacto."
+
+#: cpt/church-events.php:153
+#, fuzzy
+msgid "2nd Contact Name"
+msgstr "2º nombre de contacto"
+
+#: cpt/church-events.php:156
+#, fuzzy
+msgid "If there is a second contact person, enter their name here."
+msgstr "Si hay una segunda persona de contacto, introduzca su nombre aquí."
+
+#: cpt/church-events.php:166
+#, fuzzy
+msgid "2nd Contact Number"
+msgstr "2º número de contacto"
+
+#: cpt/church-events.php:169
+#, fuzzy
+msgid "Please enter the phone number of the second contact person."
+msgstr ""
+"Por favor, introduzca el número de teléfono de la segunda persona de "
+"contacto."
+
+#: cpt/church-ministries.php:10
+msgid "Ministry"
+msgstr "Ministerio"
+
+#: cpt/church-people.php:16
+#, fuzzy
+msgid "Enter information for you church staff."
+msgstr "Introduzca información para el personal de la iglesia."
+
+#: cpt/church-people.php:42
+#, fuzzy
+msgid ""
+"Staff will be displayed in the same order they are entered, i.e. the first "
+"entered will be the first shown."
+msgstr ""
+"El personal se mostrará en el mismo orden en que se introducen, es decir, la "
+"primera entrada será la primera mostrada."
+
+#: cpt/church-people.php:55
+msgctxt "The person's position within the church"
+msgid "Title"
+msgstr "Título"
+
+#: cpt/church-people.php:67
+#, fuzzy
+msgid "Staff Phone Number"
+msgstr "Número de teléfono del personal"
+
+#: cpt/church-people.php:79
+msgid "Staff Email"
+msgstr "Correo electrónico del personal"
+
+#: cpt/church-people.php:89
+msgid "Profile"
+msgstr "Perfil"
+
+#: cpt/church-people.php:92
+#, fuzzy
+msgid "Please provide a short profile for this person."
+msgstr "Por favor proporcione un perfil corto para esta persona."
+
+#: cpt/church-sermons.php:10
+msgid "Sermon"
+msgstr "Predicación"
+
+#: cpt/church-sermons.php:41
+msgctxt "taxonomy general name"
+msgid "Topics"
+msgstr "Temas"
+
+#: cpt/church-sermons.php:42
+msgctxt "taxonomy singular name"
+msgid "Topic"
+msgstr "Tema"
+
+#: cpt/church-sermons.php:43
+msgid "Search Topics"
+msgstr "Buscar Temas"
+
+#: cpt/church-sermons.php:44
+msgid "All Topics"
+msgstr "Todos los Temas"
+
+#: cpt/church-sermons.php:45
+msgid "Parent Topic"
+msgstr "Tema Padre"
+
+#: cpt/church-sermons.php:46
+msgid "Parent Topic:"
+msgstr "Tema Padre:"
+
+#: cpt/church-sermons.php:47
+msgid "Edit Topic"
+msgstr "Editar tema"
+
+#: cpt/church-sermons.php:48
+msgid "Update Topic"
+msgstr "Tema de actualización"
+
+#: cpt/church-sermons.php:49
+msgid "Add New Topic"
+msgstr "Agregar Nuevo Tema"
+
+#: cpt/church-sermons.php:50
+#, fuzzy
+msgid "New Topic Name"
+msgstr "Nuevo nombre de tema"
+
+#: cpt/church-sermons.php:51
+msgid "Topics"
+msgstr "Temas"
+
+#: cpt/church-sermons.php:73
+#, fuzzy
+msgid "Preached Date"
+msgstr "Fecha predicada"
+
+#: cpt/church-sermons.php:76
+#, fuzzy
+msgid "Please choose the date on which the sermon was preached."
+msgstr "Por favor, elija la fecha en la que se predicó el sermón."
+
+#: cpt/church-sermons.php:84
+#, fuzzy
+msgid "Verse Reference"
+msgstr "Referencia de verso"
+
+#: cpt/church-sermons.php:97
+#, fuzzy
+msgid "Short Summary"
+msgstr "Resumen corto"
+
+#: cpt/church-sermons.php:109
+msgid "Speaker"
+msgstr "Ponente"
+
+#: cpt/church-sermons.php:121
+#, fuzzy
+msgid "Recording File"
+msgstr "Archivo de grabación"
+
+#: cpt/church-verses.php:10
+msgid "Verse"
+msgstr "Verso"
+
+#: cpt/church-verses.php:16
+#, fuzzy
+msgid "Please place the reference in the title field"
+msgstr "Por favor, coloque la referencia en el campo de título"
+
+#: cpt/church-verses.php:42
+#, fuzzy
+msgid ""
+"Please place the verse reference citation in the title field and the verse "
+"text in the main text area."
+msgstr ""
+"Por favor, coloque la cita de referencia de verso en el campo de título y el "
+"texto del verso en el área de texto principal."
+
+#: widgets/church-announcements-slider-widget.php:97
+msgid "animateIn"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:101
+#: widgets/church-announcements-slider-widget.php:125
+msgid "Choose a transition"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:102
+msgid "fadeIn"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:103
+msgid "fadeInUp"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:104
+msgid "fadeInDown"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:105
+msgid "fadeInLeft"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:106
+msgid "fadeInRight"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:107
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:108
+msgid "fadeInRightBig"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:109
+msgid "bounceIn"
+msgstr "anuncio"
+
+#: widgets/church-announcements-slider-widget.php:110
+msgid "lightSpeedIn"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:121
+msgid "animateOut"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:126
+msgid "fadeOut"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:127
+msgid "fadeOutUp"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:128
+msgid "fadeOutDown"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:129
+msgid "fadeOutLeft"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:130
+msgid "fadeOutRight"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:131
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:132
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:133
+msgid "bounceOut"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:134
+msgid "lightSpeedOut"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:144
+msgid "Transition Time in milliseconds"
+msgstr ""
+
+#: widgets/church-announcements-slider-widget.php:148
+msgid "Slide Hold Time in milliseconds"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Church Options"
+msgstr "Opciones de Church"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/church-options/"
+msgstr "https://wordpress.org/plugins/church-options/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"An all-in-one solution for churches to add the custom post types and custom "
+"fields they need for an effective website."
+msgstr ""
+"Una solución todo en uno para que las iglesias agreguen los tipos de "
+"publicaciones personalizadas y los campos personalizados que necesitan para "
+"un sitio web eficaz."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Tim Lawson @ Quixotic Studios"
+msgstr "Tim Lawson @ Quixotic Studios"
+
+#. Author URI of the plugin/theme
+msgid "http://quixotic-studios.com"
+msgstr "http://quixotic-studios.com"
+
+#~ msgid "Dashboard"
+#~ msgstr "Escritorio"
+
+#~ msgid "Plugin Settings"
+#~ msgstr "Configuración de Plugin"
+
+#, fuzzy
+#~ msgid "Please fill in the title, though it will not be shown in the widget."
+#~ msgstr "Por favor, rellene el título, aunque no se mostrará en el widget."
+
+#~ msgid "Advanced Custom Fields"
+#~ msgstr "Campos Personalizados Avanzados"
+
+#~ msgid "Field&nbsp;Groups"
+#~ msgstr "Grupos de campo"
+
+#~ msgid "Add New"
+#~ msgstr "Añadir nuevo"
+
+#~ msgid "Add New Field Group"
+#~ msgstr "Agregar nuevo grupo de campo"
+
+#~ msgid "Edit Field Group"
+#~ msgstr "Editar grupo de campo"
+
+#~ msgid "New Field Group"
+#~ msgstr "Nuevo grupo de campos"
+
+#~ msgid "View Field Group"
+#~ msgstr "Ver grupo de campos"
+
+#~ msgid "Search Field Groups"
+#~ msgstr "Buscar grupo de campos"
+
+#~ msgid "No Field Groups found"
+#~ msgstr "No se han encontrado grupos de campos"
+
+#~ msgid "No Field Groups found in Trash"
+#~ msgstr "No se han encontrado grupos de campos en la papelera"
+
+#~ msgid "Custom Fields"
+#~ msgstr "Campos personalizados"
+
+#~ msgid "Field group updated."
+#~ msgstr "Grupo de campos actualizado."
+
+#~ msgid "Custom field updated."
+#~ msgstr "Campo personalizado actualizado."
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Campo personalizado eliminado."
+
+#~ msgid "Field group restored to revision from %s"
+#~ msgstr "Grupo de campo restaurado a revisión de %s"
+
+#~ msgid "Field group published."
+#~ msgstr "Grupo de campos publicado."
+
+#~ msgid "Field group saved."
+#~ msgstr "Grupo de campos guardado."
+
+#~ msgid "Field group submitted."
+#~ msgstr "Grupo de campos enviado."
+
+#~ msgid "Field group scheduled for."
+#~ msgstr "Grupo de campos programado."
+
+#~ msgid "Field group draft updated."
+#~ msgstr "Borrador del grupo de campos actualizado."
+
+#~ msgid "Thumbnail"
+#~ msgstr "Miniatura"
+
+#~ msgid "Medium"
+#~ msgstr "Mediano"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "Full"
+#~ msgstr "Completo"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#, fuzzy
+#~ msgid "No ACF groups selected"
+#~ msgstr "No hay grupos ACF seleccionados"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Post updated"
+#~ msgstr "Publicación actualizada"
+
+#~ msgid "Add-ons"
+#~ msgstr "Complementos"
+
+#~ msgid "Repeater Field"
+#~ msgstr "Campo repetidor"
+
+#~ msgid ""
+#~ "Create infinite rows of repeatable data with this versatile interface!"
+#~ msgstr ""
+#~ "Crear filas infinitas de datos repetibles con esta interfaz versátil!"
+
+#~ msgid "Gallery Field"
+#~ msgstr "Galería de campo"
+
+#~ msgid "Create image galleries in a simple and intuitive interface!"
+#~ msgstr "Crea galerías de imágenes en una interfaz sencilla e intuitiva!"
+
+#~ msgid "Options Page"
+#~ msgstr "Página de opciones"
+
+#~ msgid "Create global data to use throughout your website!"
+#~ msgstr "Crear datos globales para utilizar a lo largo de su sitio web!"
+
+#, fuzzy
+#~ msgid "Flexible Content Field"
+#~ msgstr "Campo de contenido flexible"
+
+#~ msgid "Create unique designs with a flexible content layout manager!"
+#~ msgstr ""
+#~ "Crear diseños únicos con un flexible gestor de diseño de contenidos!"
+
+#~ msgid "Gravity Forms Field"
+#~ msgstr "Campo de Gravity Forms"
+
+#~ msgid "Creates a select field populated with Gravity Forms!"
+#~ msgstr "Crea un campo de selección con Gravity Forms!"
+
+#~ msgid "Date & Time Picker"
+#~ msgstr "Fecha y Selector de tiempo"
+
+#~ msgid "jQuery date & time picker"
+#~ msgstr "selector de fecha y hora JQuery"
+
+#, fuzzy
+#~ msgid "Google Map Extended"
+#~ msgstr "Google Map extendido"
+
+#~ msgid "Find addresses and coordinates of a desired location"
+#~ msgstr "Encuentra direcciones y coordenadas de un lugar deseado"
+
+#~ msgid "Contact Form 7 Field"
+#~ msgstr "Campo de Contact Form 7"
+
+#~ msgid "Assign one or more contact form 7 forms to a post"
+#~ msgstr "Asignar uno o más contactos de forma 7 forma a un post"
+
+#~ msgid "Advanced Custom Fields Add-Ons"
+#~ msgstr "Avanzados campos personalizados Add-Ons"
+
+#~ msgid ""
+#~ "The following Add-ons are available to increase the functionality of the "
+#~ "Advanced Custom Fields plugin."
+#~ msgstr ""
+#~ "Los siguientes complementos están disponibles para aumentar la "
+#~ "funcionalidad del plugin Avanzado campos personalizados."
+
+#~ msgid ""
+#~ "Each Add-on can be installed as a separate plugin (receives updates) or "
+#~ "included in your theme (does not receive updates)."
+#~ msgstr ""
+#~ "Cada Add-on se puede instalar como un plugin independiente (recibe "
+#~ "actualizaciones) o incluido en el tema (no recibe actualizaciones)."
+
+#~ msgid "Installed"
+#~ msgstr "Instalado"
+
+#~ msgid "Purchase & Install"
+#~ msgstr "Instalar plugins"
+
+#~ msgid "Download"
+#~ msgstr "Descargar"
+
+#~ msgid "Export"
+#~ msgstr "Exportar"
+
+#~ msgid "Export Field Groups"
+#~ msgstr "Exportar grupos de campos"
+
+#~ msgid "Field Groups"
+#~ msgstr "Grupos de campos"
+
+#~ msgid "Select the field groups to be exported"
+#~ msgstr "Seleccione los grupos de campos a exportar"
+
+#~ msgid "Export to XML"
+#~ msgstr "Exportar a XML"
+
+#~ msgid "Export to PHP"
+#~ msgstr "Exportar a PHP"
+
+#~ msgid ""
+#~ "ACF will create a .xml export file which is compatible with the native WP "
+#~ "import plugin."
+#~ msgstr ""
+#~ "ACF creará un archivo de exportación .xml que es compatible con el plugin "
+#~ "WP importación nativa."
+
+#~ msgid ""
+#~ "Imported field groups <b>will</b> appear in the list of editable field "
+#~ "groups. This is useful for migrating fields groups between Wp websites."
+#~ msgstr ""
+#~ "Grupos de campos importados  <b>se</b> aparecerá en la lista de grupos de "
+#~ "campos editables. Esto es útil para la migración de grupos de campos "
+#~ "entre los sitios web Wp."
+
+#~ msgid "Select field group(s) from the list and click \"Export XML\""
+#~ msgstr ""
+#~ "Seleccione los grupo(s) de campo de la lista y haga clic en \"Exportar XML"
+#~ "\""
+
+#~ msgid "Save the .xml file when prompted"
+#~ msgstr "Guarde el archivo .xml cuando se le solicite"
+
+#~ msgid "Navigate to Tools &raquo; Import and select WordPress"
+#~ msgstr "Vaya a Herramientas  &raquo; Importar y seleccione WordPress"
+
+#~ msgid "Install WP import plugin if prompted"
+#~ msgstr "Instale el plugin WP importación si se solicite"
+
+#~ msgid "Upload and import your exported .xml file"
+#~ msgstr "Sube e importar el archivo .xml exportados"
+
+#~ msgid "Select your user and ignore Import Attachments"
+#~ msgstr ""
+#~ "Seleccione su nombre de usuario y hacer caso omiso de importación Adjuntos"
+
+#~ msgid "That's it! Happy WordPressing"
+#~ msgstr "¡Eso es! WordPressing feliz"
+
+#~ msgid "ACF will create the PHP code to include in your theme."
+#~ msgstr "ACF creará el código PHP para incluir en su tema."
+
+#~ msgid ""
+#~ "Registered field groups <b>will not</b> appear in the list of editable "
+#~ "field groups. This is useful for including fields in themes."
+#~ msgstr ""
+#~ "Grupos de campos Registrados <b>no lo hará</b> aparecerá en la lista de "
+#~ "grupos de campos editables. Esto es útil para incluir campos en los temas."
+
+#~ msgid ""
+#~ "Please note that if you export and register field groups within the same "
+#~ "WP, you will see duplicate fields on your edit screens. To fix this, "
+#~ "please move the original field group to the trash or remove the code from "
+#~ "your functions.php file."
+#~ msgstr ""
+#~ "Tenga en cuenta que si exporta y registra grupos de campos dentro del "
+#~ "mismo WP, verá campos duplicados en sus pantallas de edición. Para "
+#~ "solucionar esto, por favor, mueva el grupo de campo original a la "
+#~ "papelera o eliminar el código de su archivo functions.php."
+
+#~ msgid "Select field group(s) from the list and click \"Create PHP\""
+#~ msgstr ""
+#~ "Seleccione el/los grupo(s) de campos de la lista y haga clic en \"Crear "
+#~ "PHP\""
+
+#~ msgid "Copy the PHP code generated"
+#~ msgstr "Copia el código PHP generado"
+
+#~ msgid "Paste into your functions.php file"
+#~ msgstr "Pegar en el archivo functions.php"
+
+#~ msgid ""
+#~ "To activate any Add-ons, edit and use the code in the first few lines."
+#~ msgstr ""
+#~ "Para activar cualquier Add-ons, editar y usar el código en las primeras "
+#~ "líneas."
+
+#~ msgid "Export Field Groups to PHP"
+#~ msgstr "Exportar grupos de campos a PHP"
+
+#~ msgid "Notes"
+#~ msgstr "Notas"
+
+#~ msgid "Include in theme"
+#~ msgstr "Incluido en el tema"
+
+#~ msgid ""
+#~ "The Advanced Custom Fields plugin can be included within a theme. To do "
+#~ "so, move the ACF plugin inside your theme and add the following code to "
+#~ "your functions.php file:"
+#~ msgstr ""
+#~ "El plug-in Advanced campos personalizados se puede incluir dentro de un "
+#~ "tema. Para ello, mueva el plugin ACF dentro de su tema y añadir el "
+#~ "siguiente código a su archivo functions.php:"
+
+#~ msgid ""
+#~ "To remove all visual interfaces from the ACF plugin, you can use a "
+#~ "constant to enable lite mode. Add the following code to your functions."
+#~ "php file <b>before</b> the include_once code:"
+#~ msgstr ""
+#~ "Para quitar todas las interfaces visuales desde el plugin de ACF, puede "
+#~ "utilizar una constante para habilitar el modo lite. Agregue el código "
+#~ "siguiente al archivo functions.php <b>antes</b> en el código include_once:"
+
+#~ msgid "Back to export"
+#~ msgstr "Volver a Exportar"
+
+#~ msgid "No field groups were selected"
+#~ msgstr "No hay campos de grupos seleccionados"
+
+#~ msgid "Move to trash. Are you sure?"
+#~ msgstr "Mover a la papelera. ¿Estás seguro?"
+
+#~ msgid "checked"
+#~ msgstr "comprobado"
+
+#~ msgid "No toggle fields available"
+#~ msgstr "No hay campos alternativos disponibles"
+
+#~ msgid "Field group title is required"
+#~ msgstr "El título del grupo de campos es necesario"
+
+#~ msgid "copy"
+#~ msgstr "copiar"
+
+#~ msgid "or"
+#~ msgstr "o"
+
+#~ msgid "Fields"
+#~ msgstr "Campos"
+
+#~ msgid "Parent fields"
+#~ msgstr "Campos padre"
+
+#~ msgid "Sibling fields"
+#~ msgstr "Campos de mismo nivel"
+
+#~ msgid "Hide / Show All"
+#~ msgstr "Ocultar / Mostrar todo"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Show Field Key:"
+#~ msgstr "Mostrar clave de campo:"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Yes"
+#~ msgstr "Sí"
+
+#~ msgid "Front Page"
+#~ msgstr "Página Inicial"
+
+#~ msgid "Posts Page"
+#~ msgstr "Página de entradas"
+
+#~ msgid "Top Level Page (parent of 0)"
+#~ msgstr "Top Level Page (parent of 0)"
+
+#~ msgid "Parent Page (has children)"
+#~ msgstr "Parent Page (has children)"
+
+#~ msgid "Child Page (has parent)"
+#~ msgstr "Child Page (has parent)"
+
+#~ msgid "Default Template"
+#~ msgstr "Plantilla predeterminada"
+
+#~ msgid "Published"
+#~ msgstr "Publicado"
+
+#~ msgid "Pending Review"
+#~ msgstr "Pendiente de revisión"
+
+#~ msgid "Draft"
+#~ msgstr "Borrador"
+
+#~ msgid "Future"
+#~ msgstr "Futuro"
+
+#~ msgid "Private"
+#~ msgstr "Privado"
+
+#~ msgid "Revision"
+#~ msgstr "Revisión"
+
+#~ msgid "Trash"
+#~ msgstr "Papelera"
+
+#~ msgid "Super Admin"
+#~ msgstr "Super Administrador"
+
+#~ msgid "All"
+#~ msgstr "Todo"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Changelog"
+#~ msgstr "Registro de cambios"
+
+#~ msgid "See what's new in %1$sversion %2$s%3$s"
+#~ msgstr "Ver las novedades en %1$sversion%2$s %3$s"
+
+#~ msgid "Resources"
+#~ msgstr "Recursos"
+
+#~ msgid "Getting Started"
+#~ msgstr "Empezando"
+
+#~ msgid "Field Types"
+#~ msgstr "Campo Tipo"
+
+#~ msgid "Functions"
+#~ msgstr "Funciones"
+
+#~ msgid "Actions"
+#~ msgstr "Acciones"
+
+#~ msgid "Filters"
+#~ msgstr "Filtros"
+
+#~ msgid "'How to' guides"
+#~ msgstr "Guías How to"
+
+#~ msgid "Tutorials"
+#~ msgstr "Tutoriales"
+
+#~ msgid "Created by"
+#~ msgstr "Creado por"
+
+#~ msgid "Welcome to Advanced Custom Fields"
+#~ msgstr "Bienvenido a Advanced campos personalizados"
+
+#~ msgid "Thank you for updating to the latest version!"
+#~ msgstr "¡Gracias por actualizar a la ultima version!"
+
+#~ msgid ""
+#~ "ACF %s is more polished and enjoyable than ever before. We hope you like "
+#~ "it."
+#~ msgstr ""
+#~ "ACF %s está más pulida y disfrutable que nunca. Esperamos que te guste."
+
+#~ msgid "What’s New"
+#~ msgstr "Qué hay de nuevo"
+
+#~ msgid "Download Add-ons"
+#~ msgstr "Descargar Add-ons"
+
+#~ msgid "Activation codes have grown into plugins!"
+#~ msgstr "Los códigos de activación se han convertido en complementos!"
+
+#~ msgid ""
+#~ "Add-ons are now activated by downloading and installing individual "
+#~ "plugins. Although these plugins will not be hosted on the wordpress.org "
+#~ "repository, each Add-on will continue to receive updates in the usual way."
+#~ msgstr ""
+#~ "Complementos están activados por descargar e instalar los plugins "
+#~ "individuales. Aunque estos plugins no se alojan en el repositorio "
+#~ "wordpress.org, cada complemento seguirá recibiendo actualizaciones de la "
+#~ "forma habitual."
+
+#~ msgid "All previous Add-ons have been successfully installed"
+#~ msgstr "Todos los anteriores complementos se han instalado con éxito"
+
+#~ msgid "This website uses premium Add-ons which need to be downloaded"
+#~ msgstr ""
+#~ "Esta página web utiliza Premium Add-ons que necesitan ser descargado"
+
+#~ msgid "Download your activated Add-ons"
+#~ msgstr "Descargue sus complementos activados"
+
+#~ msgid ""
+#~ "This website does not use premium Add-ons and will not be affected by "
+#~ "this change."
+#~ msgstr ""
+#~ "Este sitio web no utiliza complementos premium y no se verá afectado por "
+#~ "este cambio."
+
+#~ msgid "Easier Development"
+#~ msgstr "Desarrollo Fácil"
+
+#~ msgid "New Field Types"
+#~ msgstr "Nuevos tipos de campo"
+
+#~ msgid "Taxonomy Field"
+#~ msgstr "Campo de Taxonomía"
+
+#~ msgid "User Field"
+#~ msgstr "Campo de usuario"
+
+#~ msgid "Email Field"
+#~ msgstr "Campo de correo electrónico"
+
+#~ msgid "Password Field"
+#~ msgstr "Campo de contraseña"
+
+#~ msgid "Custom Field Types"
+#~ msgstr "Tipos de campos personalizados"
+
+#~ msgid ""
+#~ "Creating your own field type has never been easier! Unfortunately, "
+#~ "version 3 field types are not compatible with version 4."
+#~ msgstr ""
+#~ "Creación de su propio tipo de campo nunca ha sido tan fácil! Por "
+#~ "desgracia, la versión 3 tipos de campo no son compatibles con la versión "
+#~ "4."
+
+#~ msgid ""
+#~ "Migrating your field types is easy, please %sfollow this tutorial%s to "
+#~ "learn more."
+#~ msgstr ""
+#~ "Migrar tus tipos de campo es fácil, por favor %sigue este tutorial%s para "
+#~ "aprender más."
+
+#~ msgid "Actions &amp; Filters"
+#~ msgstr "Acciones &amp; Filtros"
+
+#~ msgid ""
+#~ "All actions & filters have received a major facelift to make customizing "
+#~ "ACF even easier! Please %sread this guide%s to find the updated naming "
+#~ "convention."
+#~ msgstr ""
+#~ "Todas las acciones y filtros han recibido un lavado de cara importante "
+#~ "para hacer la personalización de ACF aún más fácil! Por favor %slee esta "
+#~ "guía%s para encontrar la convención de nomenclatura actualizada."
+
+#~ msgid "Preview draft is now working!"
+#~ msgstr "Borrador de vista previa no funciona!"
+
+#~ msgid "This bug has been squashed along with many other little critters!"
+#~ msgstr ""
+#~ "Este error se ha aplastado junto con muchas otras pequeñas criaturas!"
+
+#~ msgid "See the full changelog"
+#~ msgstr "Ver la lista completa de cambios"
+
+#~ msgid "Important"
+#~ msgstr "Importante"
+
+#~ msgid "Database Changes"
+#~ msgstr "Cambios de base de datos"
+
+#~ msgid ""
+#~ "Absolutely <strong>no</strong> changes have been made to the database "
+#~ "between versions 3 and 4. This means you can roll back to version 3 "
+#~ "without any issues."
+#~ msgstr ""
+#~ "<strong>No se ha realizado en absoluto </strong> han realizado cambios en "
+#~ "la base de datos entre las versiones 3 y 4. Esto significa que puede "
+#~ "retroceder a la versión 3 sin ningún problema."
+
+#~ msgid "Potential Issues"
+#~ msgstr "Problemas potenciales"
+
+#, fuzzy
+#~ msgid ""
+#~ "Due to the sizable changes surrounding Add-ons, field types and action/"
+#~ "filters, your website may not operate correctly. It is important that you "
+#~ "read the full %sMigrating from v3 to v4%s guide to view the full list of "
+#~ "changes."
+#~ msgstr ""
+#~ "Debido a los cambios considerables que rodean a los add-ons, los tipos de "
+#~ "campo y la acción/filtros, es posible que su sitio web no funcione "
+#~ "correctamente. Es importante que lea la guía completa %smigrar de V3 a V4 "
+#~ "%s para ver la lista completa de cambios."
+
+#~ msgid "Really Important!"
+#~ msgstr "¡Realmente importante!"
+
+#~ msgid ""
+#~ "If you updated the ACF plugin without prior knowledge of such changes, "
+#~ "please roll back to the latest %sversion 3%s of this plugin."
+#~ msgstr ""
+#~ "Si ha actualizado el plugin ACF sin conocimiento previo de dichos "
+#~ "cambios, por favor vuelva a la última %sversion 3%s de este plugin."
+
+#~ msgid "Thank You"
+#~ msgstr "Gracias"
+
+#~ msgid ""
+#~ "A <strong>BIG</strong> thank you to everyone who has helped test the "
+#~ "version 4 beta and for all the support I have received."
+#~ msgstr ""
+#~ "Un <strong> GRANDE </strong> las gracias a todos los que han ayudado a "
+#~ "probar la versión 4 beta y por todo el apoyo que he recibido."
+
+#~ msgid "Without you all, this release would not have been possible!"
+#~ msgstr "Sin todos ustedes, esta versión no habría sido posible!"
+
+#~ msgid "Changelog for"
+#~ msgstr "Historial de cambios para"
+
+#~ msgid "Learn more"
+#~ msgstr "Saber más"
+
+#~ msgid "Overview"
+#~ msgstr "Resumen"
+
+#~ msgid ""
+#~ "Previously, all Add-ons were unlocked via an activation code (purchased "
+#~ "from the ACF Add-ons store). New to v4, all Add-ons act as separate "
+#~ "plugins which need to be individually downloaded, installed and updated."
+#~ msgstr ""
+#~ "Anteriormente, todos los complementos fueron desbloqueados a través de un "
+#~ "código de activación (comprado en la tienda de ACF complementos). Nuevo "
+#~ "en V4, todo acto de complementos como plugins separados que deben ser "
+#~ "descargados de forma individual, instalado y actualizado."
+
+#~ msgid ""
+#~ "This page will assist you in downloading and installing each available "
+#~ "Add-on."
+#~ msgstr ""
+#~ "Esta página le ayudará a descargar e instalar cada uno disponible Add-on."
+
+#~ msgid "Available Add-ons"
+#~ msgstr "Add-ons disponibles"
+
+#~ msgid ""
+#~ "The following Add-ons have been detected as activated on this website."
+#~ msgstr ""
+#~ "Los siguientes complementos se han detectado como activado en este sitio "
+#~ "web."
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Activation Code"
+#~ msgstr "Código de Activación"
+
+#~ msgid "Flexible Content"
+#~ msgstr "Contenido flexible"
+
+#~ msgid "Installation"
+#~ msgstr "Instalación"
+
+#~ msgid "For each Add-on available, please perform the following:"
+#~ msgstr "Para cada complemento disponible, por favor haga lo siguiente:"
+
+#~ msgid "Download the Add-on plugin (.zip file) to your desktop"
+#~ msgstr "Descargue el plugin Add-on (archivo .zip) a su escritorio"
+
+#, fuzzy
+#~ msgid "Navigate to %sPlugins > Add New > Upload%s"
+#~ msgstr "Navega a %sPlugins > Añadir nuevo > upload %s"
+
+#~ msgid ""
+#~ "Use the uploader to browse, select and install your Add-on (.zip file)"
+#~ msgstr ""
+#~ "Utilice la carga para navegar, seleccionar e instalar el (archivo.zip) "
+#~ "Add-on"
+
+#~ msgid ""
+#~ "Once the plugin has been uploaded and installed, click the 'Activate "
+#~ "Plugin' link"
+#~ msgstr ""
+#~ "Una vez que el plugin se ha cargado e instalado, haga clic en el enlace "
+#~ "Activar Plugin"
+
+#~ msgid "The Add-on is now installed and activated!"
+#~ msgstr "El add-on ya está instalado y activado!"
+
+#~ msgid "Awesome. Let's get to work"
+#~ msgstr "Impresionante. Pongámonos a trabajar"
+
+#~ msgid "Expand Details"
+#~ msgstr "Ampliar detalles"
+
+#~ msgid "Collapse Details"
+#~ msgstr "Detalles Colapso"
+
+#~ msgid "Validation Failed. One or more fields below are required."
+#~ msgstr "Validación fallida. Uno o más campos siguientes son obligatorios."
+
+#~ msgid "Upgrade"
+#~ msgstr "Actualizar"
+
+#~ msgid "Modifying field group options 'show on page'"
+#~ msgstr "Modificar Opciones de grupo campo \"mostrar en la página \""
+
+#~ msgid "Modifying field option 'taxonomy'"
+#~ msgstr "Modificación de la opción de campo \"taxonomía\""
+
+#~ msgid "Moving user custom fields from wp_options to wp_usermeta"
+#~ msgstr ""
+#~ "Mover campos personalizados de usuario desde wp_options a wp_usermeta"
+
+#, fuzzy
+#~ msgid "(Early access enabled)"
+#~ msgstr "(Acceso anticipado habilitado)"
+
+#~ msgid "Basic"
+#~ msgstr "Básico"
+
+#~ msgid "Checkbox"
+#~ msgstr "Checkbox"
+
+#~ msgid "Choice"
+#~ msgstr "Elección"
+
+#~ msgid "Choices"
+#~ msgstr "Elecciones"
+
+#~ msgid "Enter each choice on a new line."
+#~ msgstr "Introduzca cada opción en una línea nueva."
+
+#~ msgid "For more control, you may specify both a value and label like this:"
+#~ msgstr ""
+#~ "Para un mayor control, puede especificar un valor y la etiqueta de la "
+#~ "siguiente manera:"
+
+#~ msgid "red : Red"
+#~ msgstr "rojo : ROJO"
+
+#~ msgid "blue : Blue"
+#~ msgstr "azul : AZUL"
+
+#~ msgid "Default Value"
+#~ msgstr "Valor por Defecto"
+
+#~ msgid "Enter each default value on a new line"
+#~ msgstr "Introduzca cada valor predeterminado en una nueva l&iacute;nea"
+
+#~ msgid "Layout"
+#~ msgstr "Diseño"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertical"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid "Color Picker"
+#~ msgstr "Selector de Color"
+
+#~ msgid "jQuery"
+#~ msgstr "jQuery"
+
+#~ msgid "Date Picker"
+#~ msgstr "Selector de fechas"
+
+#~ msgid "Done"
+#~ msgstr "Hecho"
+
+#~ msgid "Today"
+#~ msgstr "Hoy"
+
+#~ msgid "Show a different month"
+#~ msgstr "Mostrar un mes diferente"
+
+#~ msgid "Save format"
+#~ msgstr "Guardar formato"
+
+#~ msgid ""
+#~ "This format will determine the value saved to the database and returned "
+#~ "via the API"
+#~ msgstr ""
+#~ "Este formato determinará el valor guardado en la base de datos y devuelto "
+#~ "a través de la API"
+
+#~ msgid "\"yymmdd\" is the most versatile save format. Read more about"
+#~ msgstr "“yymmdd” es el formato más versátil para guardar. Leer más"
+
+#~ msgid "jQuery date formats"
+#~ msgstr "jQuery formatos de fecha"
+
+#~ msgid "Display format"
+#~ msgstr "Formato de visualización"
+
+#~ msgid "This format will be seen by the user when entering a value"
+#~ msgstr "Este formato será visto por el usuario al ingresar un valor"
+
+#~ msgid ""
+#~ "\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+#~ "about"
+#~ msgstr ""
+#~ "\"dd/mm/yy” o \"mm/dd/yy” son los formatos de presentación más "
+#~ "utilizados. Leer más"
+
+#~ msgid "Week Starts On"
+#~ msgstr "La semana comienza en"
+
+#~ msgid "Dummy"
+#~ msgstr "Machote"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Appears when creating a new post"
+#~ msgstr "Aparece cuando la creaci&oacute;n de un nuevo puesto"
+
+#~ msgid "Placeholder Text"
+#~ msgstr "Texto del marcador"
+
+#~ msgid "Appears within the input"
+#~ msgstr "Aparece en la entrada"
+
+#~ msgid "Prepend"
+#~ msgstr "Antes"
+
+#~ msgid "Appears before the input"
+#~ msgstr "Aparece antes de la entrada"
+
+#~ msgid "Append"
+#~ msgstr "Adjuntar"
+
+#~ msgid "Appears after the input"
+#~ msgstr "Aparece después de la entrada"
+
+#~ msgid "File"
+#~ msgstr "Archivo"
+
+#~ msgid "Content"
+#~ msgstr "Contenido"
+
+#~ msgid "Select File"
+#~ msgstr "Seleccionar Archivo"
+
+#~ msgid "Edit File"
+#~ msgstr "Editar archivo"
+
+#~ msgid "Update File"
+#~ msgstr "Actualizar archivo"
+
+#~ msgid "Uploaded to this post"
+#~ msgstr "El archivo subido no tiene un formato permitido"
+
+#~ msgid "Size"
+#~ msgstr "Tamaño"
+
+#~ msgid "No File Selected"
+#~ msgstr "No hay archivo seleccionado"
+
+#~ msgid "Add File"
+#~ msgstr "Añadir archivo"
+
+#~ msgid "Return Value"
+#~ msgstr "Valor Retorno"
+
+#~ msgid "File Object"
+#~ msgstr "Objeto del archivo"
+
+#~ msgid "File URL"
+#~ msgstr "URL del archivo"
+
+#~ msgid "File ID"
+#~ msgstr "Expediente ID"
+
+#~ msgid "Library"
+#~ msgstr "Biblioteca"
+
+#~ msgid "Uploaded to post"
+#~ msgstr "Subido para publicar"
+
+#~ msgid "Google Map"
+#~ msgstr "Google Map"
+
+#~ msgid "Locating"
+#~ msgstr "Ubicando"
+
+#~ msgid "Sorry, this browser does not support geolocation"
+#~ msgstr "Lo sentimos, este navegador no soporta geolocalización"
+
+#~ msgid "Clear location"
+#~ msgstr "Borrar ubicación"
+
+#~ msgid "Find current location"
+#~ msgstr "Encuentra la ubicación actual"
+
+#~ msgid "Search for address..."
+#~ msgstr "Búsqueda de dirección…"
+
+#~ msgid "Center"
+#~ msgstr "Centro"
+
+#~ msgid "Center the initial map"
+#~ msgstr "Centrar el mapa inicial"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Set the initial zoom level"
+#~ msgstr "Establecer el nivel de zoom inicial"
+
+#~ msgid "Height"
+#~ msgstr "Altura"
+
+#~ msgid "Customise the map height"
+#~ msgstr "Personalizar el mapa altura"
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "Select Image"
+#~ msgstr "Seleccionar imagen"
+
+#~ msgid "Edit Image"
+#~ msgstr "Editar Imagen"
+
+#~ msgid "Update Image"
+#~ msgstr "Actualizar Imagen"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "No image selected"
+#~ msgstr "No hay ninguna imagen seleccionada"
+
+#~ msgid "Add Image"
+#~ msgstr "Añadir Imagen"
+
+#~ msgid "Specify the returned value on front end"
+#~ msgstr "Especificar el valor devuelto en front end"
+
+#~ msgid "Image Object"
+#~ msgstr "Imagen objeto"
+
+#~ msgid "Image URL"
+#~ msgstr "URL de la imagen"
+
+#~ msgid "Image ID"
+#~ msgstr "Imagen"
+
+#~ msgid "Preview Size"
+#~ msgstr "Tamaño de vista previa"
+
+#~ msgid "Shown when entering data"
+#~ msgstr "Se muestra datos cuando se insertan"
+
+#~ msgid "Limit the media library choice"
+#~ msgstr "Limitar la elección en biblioteca multimedia"
+
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "Text &amp; HTML entered here will appear inline with the fields"
+#~ msgstr "Texto &amp; HTML introducido aquí aparecerá en línea con los campos"
+
+#~ msgid ""
+#~ "Please note that all text will first be passed through the wp function "
+#~ msgstr ""
+#~ "Tenga en cuenta que todo el texto primero se pasa a través de la función "
+#~ "wp "
+
+#~ msgid "Number"
+#~ msgstr "Número"
+
+#~ msgid "Minimum Value"
+#~ msgstr "Valor mínimo"
+
+#~ msgid "Maximum Value"
+#~ msgstr "Valor máximo"
+
+#~ msgid "Step Size"
+#~ msgstr "Tamaño de Parte"
+
+#~ msgid "Page Link"
+#~ msgstr "Link de la página"
+
+#~ msgid "Relational"
+#~ msgstr "Relacional"
+
+#~ msgid "Post Type"
+#~ msgstr "Tipo de publicación"
+
+#~ msgid "Allow Null?"
+#~ msgstr "Permitir Null?"
+
+#~ msgid "Select multiple values?"
+#~ msgstr "¿Seleccionar múltiples valores?"
+
+#~ msgid "Password"
+#~ msgstr "Contraseña"
+
+#~ msgid "Post Object"
+#~ msgstr "Objeto publicados"
+
+#~ msgid "(no title)"
+#~ msgstr "(no titulo)"
+
+#~ msgid "Filter from Taxonomy"
+#~ msgstr "Filtro de Taxonomía"
+
+#~ msgid "Radio Button"
+#~ msgstr "Boton de radio"
+
+#~ msgid "Other"
+#~ msgstr "Otro"
+
+#~ msgid "Enter your choices one per line"
+#~ msgstr "Escriba su opciones una por línea"
+
+#~ msgid "Red"
+#~ msgstr "Rojo"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Add 'other' choice to allow for custom values"
+#~ msgstr "\"Otros\" valores de ahorro a las opciones de campos"
+
+#~ msgid "Save 'other' values to the field's choices"
+#~ msgstr "\"Otros\" valores de ahorro a las opciones de campos"
+
+#~ msgid "Relationship"
+#~ msgstr "Relación"
+
+#~ msgid "Maximum values reached ( {max} values )"
+#~ msgstr "Máximos valores alcanzados ( {max} values )"
+
+#~ msgid "Search..."
+#~ msgstr "Buscar..."
+
+#~ msgid "Filter by post type"
+#~ msgstr "Filtrar por tipo de post"
+
+#~ msgid "Return Format"
+#~ msgstr "Formato de retorno"
+
+#~ msgid "Post Objects"
+#~ msgstr "Objetos publicados"
+
+#~ msgid "Post IDs"
+#~ msgstr "IDs Post"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Post Type Select"
+#~ msgstr "Seleccione el tipo de post"
+
+#~ msgid "Elements"
+#~ msgstr "Elementos"
+
+#~ msgid "Selected elements will be displayed in each result"
+#~ msgstr "Los elementos seleccionados se mostrarán en cada resultado"
+
+#~ msgid "Featured Image"
+#~ msgstr "Imagen destacada"
+
+#~ msgid "Post Title"
+#~ msgstr "Título de la publicación"
+
+#~ msgid "Maximum posts"
+#~ msgstr "Maximos Posts"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
+#~ msgid "Tab"
+#~ msgstr "Pestaña"
+
+#~ msgid ""
+#~ "Use \"Tab Fields\" to better organize your edit screen by grouping your "
+#~ "fields together under separate tab headings."
+#~ msgstr ""
+#~ "Utilice \"Campos del tab\" para organizar mejor su pantalla de edición "
+#~ "mediante la agrupación de sus campos juntos en las rúbricas del tab "
+#~ "separadas."
+
+#~ msgid ""
+#~ "All the fields following this \"tab field\" (or until another \"tab field"
+#~ "\" is defined) will be grouped together."
+#~ msgstr ""
+#~ "Todos los campos contenidos dentro de este \"Campo de Pestaña\" (o hasta "
+#~ "que se defina otro \"campo pestaña\") se agruparán juntos."
+
+#~ msgid "Use multiple tabs to divide your fields into sections."
+#~ msgstr "Utilice múltiples tabs para dividir sus campos en secciones."
+
+#~ msgid "Taxonomy"
+#~ msgstr "Taxonomía"
+
+#~ msgid "None"
+#~ msgstr "Ninguno"
+
+#~ msgid "Field Type"
+#~ msgstr "Tipo de campo"
+
+#~ msgid "Multiple Values"
+#~ msgstr "Múltiples valores"
+
+#~ msgid "Multi Select"
+#~ msgstr "Multiselección"
+
+#~ msgid "Single Value"
+#~ msgstr "Valor individual"
+
+#~ msgid "Radio Buttons"
+#~ msgstr "Radio Buttons"
+
+#~ msgid "Load & Save Terms to Post"
+#~ msgstr "Cargar y Guardar Condiciones para publicar"
+
+#~ msgid ""
+#~ "Load value based on the post's terms and update the post's terms on save"
+#~ msgstr ""
+#~ "Valor de carga con base en los términos del post y actualizar los "
+#~ "términos del post y guardar"
+
+#~ msgid "Term Object"
+#~ msgstr "Objeto término"
+
+#~ msgid "Term ID"
+#~ msgstr "ID del término"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Formatting"
+#~ msgstr "Formato"
+
+#~ msgid "Affects value on front end"
+#~ msgstr "Afecta el valor en el front-end"
+
+#~ msgid "No formatting"
+#~ msgstr "Sin formato"
+
+#~ msgid "Convert HTML into tags"
+#~ msgstr "Convertir HTML en etiquetas"
+
+#~ msgid "Character Limit"
+#~ msgstr "L&iacute;mite Caracteres"
+
+#~ msgid "Leave blank for no limit"
+#~ msgstr "Dejar en blanco sin límite"
+
+#~ msgid "Text Area"
+#~ msgstr "Área de texto"
+
+#~ msgid "Rows"
+#~ msgstr "Filas"
+
+#~ msgid "Sets the textarea height"
+#~ msgstr "Establece la altura &aacute;rea de texto"
+
+#~ msgid "Convert new lines into &lt;br /&gt; tags"
+#~ msgstr "Convertir nuevas líneas a &lt;br /&gt; etiquetas"
+
+#~ msgid "True / False"
+#~ msgstr "Verdadero/Falso"
+
+#~ msgid "eg. Show extra content"
+#~ msgstr "eg. Mostrar contenido extra"
+
+#~ msgid "User"
+#~ msgstr "Usuario"
+
+#~ msgid "Filter by role"
+#~ msgstr "Filtrar por rol"
+
+#~ msgid "Wysiwyg Editor"
+#~ msgstr "Editor Wysiwyg"
+
+#~ msgid "Toolbar"
+#~ msgstr "Barra de herramientas"
+
+#~ msgid "Show Media Upload Buttons?"
+#~ msgstr "Mostrar medios cargar los botones?"
+
+#~ msgid "New Field"
+#~ msgstr "Nuevo campo"
+
+#~ msgid "Field type does not exist"
+#~ msgstr "No existe tipo de campo"
+
+#~ msgid "Field Order"
+#~ msgstr "Orden de campo"
+
+#~ msgid "Field Label"
+#~ msgstr "Etiqueta de campo"
+
+#~ msgid "Field Name"
+#~ msgstr "Nombre del campo"
+
+#~ msgid "Field Key"
+#~ msgstr "Clave del campo"
+
+#~ msgid ""
+#~ "No fields. Click the <strong>+ Add Field</strong> button to create your "
+#~ "first field."
+#~ msgstr ""
+#~ "Sin campos. Haz clic en el botón <strong>+ Añadir campo</strong> para "
+#~ "crear tu primer campo."
+
+#~ msgid "Edit this Field"
+#~ msgstr "Editar este campo"
+
+#~ msgid "Duplicate this Field"
+#~ msgstr "Duplicar este Campo"
+
+#~ msgid "Duplicate"
+#~ msgstr "Duplicar"
+
+#~ msgid "Delete this Field"
+#~ msgstr "Eliminar este campo"
+
+#~ msgid "Delete"
+#~ msgstr "Borrar"
+
+#~ msgid "This is the name which will appear on the EDIT page"
+#~ msgstr "Este es el nombre que aparecerá en la página EDITAR"
+
+#~ msgid "Single word, no spaces. Underscores and dashes allowed"
+#~ msgstr "Una sola palabra, sin espacios. Guiones bajos y guiones permitidos"
+
+#~ msgid "Field Instructions"
+#~ msgstr "Instrucciones de campo"
+
+#~ msgid "Instructions for authors. Shown when submitting data"
+#~ msgstr "Instrucciones para autores. Se muestra al enviar datos"
+
+#~ msgid "Required?"
+#~ msgstr "¿Requerido?"
+
+#~ msgid "Conditional Logic"
+#~ msgstr "Lógica Condicional"
+
+#~ msgid "is equal to"
+#~ msgstr "es igual a"
+
+#~ msgid "is not equal to"
+#~ msgstr "no es igual a"
+
+#~ msgid "Show this field when"
+#~ msgstr "Mostrar este campo cuando"
+
+#~ msgid "all"
+#~ msgstr "todo"
+
+#~ msgid "any"
+#~ msgstr "cualquiera"
+
+#~ msgid "these rules are met"
+#~ msgstr "se cumplen estas normas"
+
+#~ msgid "Close Field"
+#~ msgstr "Cerrar campo"
+
+#~ msgid "Drag and drop to reorder"
+#~ msgstr "Arrastrar y soltar para reordenar"
+
+#~ msgid "+ Add Field"
+#~ msgstr "+ Añadir campo"
+
+#~ msgid "Rules"
+#~ msgstr "Reglas"
+
+#~ msgid ""
+#~ "Create a set of rules to determine which edit screens will use these "
+#~ "advanced custom fields"
+#~ msgstr ""
+#~ "Crear un conjunto de reglas para determinar qu&eacute; pantallas de "
+#~ "edici&oacute;n va a utilizar estos campos personalizados avanzados"
+
+#~ msgid "Show this field group if"
+#~ msgstr "Mostrar este grupo campo si"
+
+#~ msgid "Logged in User Type"
+#~ msgstr "Conectado Tipo de usuario"
+
+#~ msgid "Post"
+#~ msgstr "Entrada"
+
+#~ msgid "Post Category"
+#~ msgstr "Categoría de publicación"
+
+#~ msgid "Post Format"
+#~ msgstr "Post Formato"
+
+#~ msgid "Post Status"
+#~ msgstr "Estados de la publicación"
+
+#~ msgid "Post Taxonomy"
+#~ msgstr "Post Taxonomy"
+
+#~ msgid "Page"
+#~ msgstr "Página"
+
+#~ msgid "Page Type"
+#~ msgstr "Tipo de página"
+
+#~ msgid "Page Parent"
+#~ msgstr "Page Parent"
+
+#~ msgid "Page Template"
+#~ msgstr "Plantilla de página"
+
+#~ msgid "Attachment"
+#~ msgstr "Archivo adjunto"
+
+#~ msgid "Taxonomy Term"
+#~ msgstr "Taxonomía terminos"
+
+#~ msgid "and"
+#~ msgstr "y"
+
+#~ msgid "Add rule group"
+#~ msgstr "Agregar grupo de reglas"
+
+#~ msgid "Order No."
+#~ msgstr "Numero de pedido"
+
+#~ msgid "Field groups are created in order <br />from lowest to highest"
+#~ msgstr "Grupos de campos se crean con el fin <br /> de menor a mayor"
+
+#~ msgid "Position"
+#~ msgstr "Posición"
+
+#~ msgid "High (after title)"
+#~ msgstr "Alta (después del título)"
+
+#~ msgid "Normal (after content)"
+#~ msgstr "Normal (después del contenido)"
+
+#~ msgid "Side"
+#~ msgstr "Lado"
+
+#~ msgid "Style"
+#~ msgstr "Estilo"
+
+#~ msgid "Seamless (no metabox)"
+#~ msgstr "Seamless (sin METABOX)"
+
+#~ msgid "Standard (WP metabox)"
+#~ msgstr "Estándar (METABOX WP)"
+
+#~ msgid "Hide on screen"
+#~ msgstr "Ocultar en la pantalla"
+
+#~ msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+#~ msgstr ""
+#~ "<b>Seleccione</b>artículos Para <b>Esconderlos</b>desde la pantalla de "
+#~ "edición"
+
+#~ msgid ""
+#~ "If multiple field groups appear on an edit screen, the first field "
+#~ "group's options will be used. (the one with the lowest order number)"
+#~ msgstr ""
+#~ "Si varios grupos de campos aparecen en una pantalla de edición, se "
+#~ "utilizarán las opciones del primer grupo de campo. (el que tiene el "
+#~ "número de orden más bajo)"
+
+#~ msgid "Permalink"
+#~ msgstr "Enlace permanente"
+
+#~ msgid "Content Editor"
+#~ msgstr "Editor de Contenido"
+
+#~ msgid "Excerpt"
+#~ msgstr "Extracto"
+
+#~ msgid "Discussion"
+#~ msgstr "Discusión"
+
+#~ msgid "Comments"
+#~ msgstr "Comentarios"
+
+#~ msgid "Revisions"
+#~ msgstr "Revisiones"
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Format"
+#~ msgstr "Formato"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgid "Tags"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Send Trackbacks"
+#~ msgstr "Enviar Trackbacks"
+
+#, fuzzy
+#~ msgid "Widget for displaying random Bible verses"
+#~ msgstr "Widget para mostrar versículos bíblicos aleatorios"
+
+#, fuzzy
+#~ msgid "Church Verses Widget"
+#~ msgstr "Versículos de la iglesia widget"

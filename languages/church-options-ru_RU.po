@@ -1,0 +1,718 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Church Options\n"
+"POT-Creation-Date: 2019-06-11 20:20-0500\n"
+"PO-Revision-Date: 2019-08-05 19:38-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: church-options.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: church-options.php:207
+msgid ""
+"Church Options has not been tested with your version of Wordpress. It may "
+"still work though..."
+msgstr ""
+"Варианты Церкви не были протестированы с вашей версией Wordpress. Это все "
+"еще может работать, хотя …"
+
+#: church-options.php:353
+msgid ""
+"The Church Options plugin creates all of the custom post types churches need "
+"for an effective Web site."
+msgstr ""
+"Плагин «Параметры церкви» создает все настраиваемые типы записей, "
+"необходимые церквям для эффективного веб-сайта."
+
+#: church-options.php:358 church-options.php:383 church-options.php:497
+#: cpt/church-announcements.php:9 cpt/church-announcements.php:14
+#: cpt/church-announcements.php:51
+msgid "Announcements"
+msgstr "Объявления"
+
+#: church-options.php:359 church-options.php:384 church-options.php:502
+#: cpt/church-events.php:9 cpt/church-events.php:14
+msgid "Events"
+msgstr "События"
+
+#: church-options.php:360 church-options.php:385 church-options.php:514
+#: cpt/church-sermons.php:9 cpt/church-sermons.php:14
+msgid "Sermons"
+msgstr "Проповеди"
+
+#: church-options.php:361 church-options.php:386 church-options.php:509
+#: cpt/church-ministries.php:9 cpt/church-ministries.php:14
+msgid "Ministries"
+msgstr "Министерства"
+
+#: church-options.php:362 church-options.php:387 church-options.php:521
+#: cpt/church-people.php:9 cpt/church-people.php:10 cpt/church-people.php:14
+msgid "People"
+msgstr "Люди"
+
+#: church-options.php:363 church-options.php:388 church-options.php:526
+#: cpt/church-verses.php:9 cpt/church-verses.php:14
+msgid "Verses"
+msgstr "Вирши"
+
+#: church-options.php:377
+#: lib/advanced-custom-fields/core/controllers/export.php:300
+#: lib/advanced-custom-fields/core/fields/tab.php:65
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: church-options.php:378
+msgid ""
+"Click the tabs below for detailed instructions for using the custom post "
+"types."
+msgstr ""
+"Нажмите на вкладки ниже для получения подробных инструкций по использованию "
+"пользовательских типов сообщений."
+
+#: church-options.php:389
+msgid "Contact"
+msgstr "Контакты"
+
+#: church-options.php:394
+msgid ""
+"Once the Announcements post type has been selected in the Church Options "
+"settings, the Announcements will appear in the sidebar under \"Comments\"."
+msgstr ""
+"После того, как тип сообщения «Объявления» был выбран в настройках "
+"«Параметры церкви», объявления появятся на боковой панели в разделе "
+"«Комментарии»."
+
+#: church-options.php:396
+msgid ""
+"Click on \"Announcements\" and choose \"Add New\", just like a regular post."
+msgstr "Нажмите «Объявления» и выберите «Добавить новый», как обычный пост."
+
+#: church-options.php:397
+msgid ""
+"Fill in the title as usual, then enter what you want the announcement to say "
+"in the content area."
+msgstr ""
+"Заполните заголовок как обычно, затем введите то, что вы хотите, чтобы "
+"объявление говорило в области контента."
+
+#: church-options.php:398
+msgid "Enter the information for up to two contacts. This is not required."
+msgstr "Введите информацию до двух контактов. Это не обязательно."
+
+#: church-options.php:399
+msgid ""
+"Then choose the date you want the announcement to stop showing. This uses a "
+"standard date picker: just click the field, then click the day of the month "
+"in the calendar that appears."
+msgstr ""
+"Затем выберите дату, когда вы хотите, чтобы объявление перестало "
+"показываться. Для этого используется стандартное средство выбора даты: "
+"просто щелкните поле, а затем щелкните день месяца в появившемся календаре."
+
+#: church-options.php:400
+msgid "Lastly, click the \"Publish\" button as usual."
+msgstr "Наконец, как обычно, нажмите кнопку «Опубликовать»."
+
+#: church-options.php:402
+msgid ""
+"There are two ways of displaying Announcements: the Slider widget and the "
+"Bootstrap Carousel widget. The Announcements Slider widget has several "
+"options for transition and timing, while the Boostrap Carousel is a simple "
+"sliding carousel. Both will display the announcements which have not "
+"expired, according to the date entered in the \"Expiration Date\" field. The "
+"announcement content can be styled, but it is best to keep such styling to a "
+"minimum to prevent beaking the layout of the widget."
+msgstr ""
+"Существует два способа отображения объявлений: виджет Slider и виджет "
+"Bootstrap Carousel. Виджет «Слайдер объявлений» имеет несколько опций для "
+"перехода и времени, а карусель Boostrap - простая скользящая карусель Оба "
+"будут отображать объявления, срок действия которых не истек, в соответствии "
+"с датой, указанной в поле «Срок действия». Содержимое объявления может быть "
+"стилизовано, но лучше придерживаться такого стиля как минимум, чтобы "
+"предотвратить изменение макета виджета."
+
+#: church-options.php:405
+msgid ""
+"The Events post type has many fields that can be filled in for many "
+"different situations. Activating the Events post type also makes available "
+"the Events widgets. There is one for a horizontal layout and one for "
+"vertical."
+msgstr ""
+"Тип публикации «События» имеет много полей, которые можно заполнить в самых "
+"разных ситуациях. Активация типа сообщения «События» также делает доступными "
+"виджеты «События». Один для горизонтального расположения и один для "
+"вертикального."
+
+#: church-options.php:407
+msgid "Select the Events in the sidebar and choose \"Add New\"."
+msgstr "Выберите события на боковой панели и выберите «Добавить новый»."
+
+#: church-options.php:408
+msgid "Enter the event title in the title field."
+msgstr "Пожалуйста, поместите ссылку в поле заголовка."
+
+#: church-options.php:409
+msgid "Fill in the event details in the content area."
+msgstr "Заполните детали события в области контента."
+
+#: church-options.php:411
+msgid ""
+"Most of the rest of the fields are optional, but it is recommended that the "
+"start date and time be filled in as well as the contact persons. Categories "
+"and tags can be added, and can be searched, but they do not appear on the "
+"front end."
+msgstr ""
+"Большинство остальных полей являются необязательными, но рекомендуется "
+"указывать дату и время начала, а также контактные лица. Категории и теги "
+"могут быть добавлены, и их можно искать, но они не отображаются в интерфейсе."
+
+#: church-options.php:412
+msgid ""
+"The Events widgets will display different amounts of information depending "
+"on whether it is the vertical or horizontal version. The vertical version "
+"displays less due to the need to conserve space in the sidebar and footer "
+"areas."
+msgstr ""
+"Виджеты «События» будут отображать различное количество информации в "
+"зависимости от того, вертикальная или горизонтальная версия. Вертикальная "
+"версия отображает меньше из-за необходимости сохранения места в боковой "
+"панели и областях нижнего колонтитула."
+
+#: church-options.php:413
+msgid "Events page"
+msgstr "Страница событий"
+
+#: church-options.php:414
+msgid ""
+"Create a new page and choose the \"Events\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the events."
+msgstr ""
+"Создайте новую страницу и выберите шаблон «События» в раскрывающемся списке "
+"«Шаблон» с правой стороны под «Атрибутами страницы». Любой введенный текст "
+"будет отображаться над событиями."
+
+#: church-options.php:417
+msgid ""
+"The Sermons post type is intended for making available recordings of the "
+"sermons in the MP3 format. The MP3s files can be downloaded or listened to "
+"right on the Web site. Other audio formats can be used, but MP3 is "
+"recommended for the greatest compatabilty."
+msgstr ""
+"Тип сообщения «Проповеди» предназначен для размещения записей проповедей в "
+"формате MP3. Файлы MP3 можно скачать или прослушать прямо на веб-сайте. "
+"Можно использовать другие аудиоформаты, но для большей совместимости "
+"рекомендуется MP3."
+
+#: church-options.php:418
+msgid "To make a Sermons post"
+msgstr "Чтобы сделать сообщение проповеди"
+
+#: church-options.php:420
+msgid ""
+"Select the \"Add New\" link under the \"Sermons\" post type in the sidebar."
+msgstr ""
+"Выберите ссылку «Добавить новый» под типом сообщения «Проповеди» на боковой "
+"панели."
+
+#: church-options.php:421
+msgid "Enter the sermon title in the title field."
+msgstr "Пожалуйста, поместите ссылку в поле заголовка."
+
+#: church-options.php:422
+msgid "Enter a short summary of the sermon in the content area."
+msgstr "Введите краткое содержание проповеди в области содержимого."
+
+#: church-options.php:423
+msgid "Choose the MP3 file from the field selector under the content area."
+msgstr "Выберите файл MP3 в поле выбора в области содержимого."
+
+#: church-options.php:424
+msgid ""
+"The categories can be used to add topics of the sermons which can be "
+"searched."
+msgstr ""
+"Категории могут быть использованы для добавления тем проповедей, которые "
+"можно искать."
+
+#: church-options.php:426
+msgid "Sermons page"
+msgstr "Страница проповедей"
+
+#: church-options.php:427
+msgid ""
+"Create a new page and choose the \"Sermons\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the sermons."
+msgstr ""
+"Создайте новую страницу и выберите шаблон «Проповеди» в раскрывающемся меню "
+"«Шаблон» с правой стороны под «Атрибутами страницы». Любой введенный текст "
+"будет отображаться над проповедями."
+
+#: church-options.php:430
+msgid ""
+"The Ministries post type is used to present the church's several ministries. "
+"Since these don't change very often, unlike events, they are expected to be "
+"a little more flamboyant in their design. The Ministries widgets supprt "
+"featured images, and can withstand more formatting of the descriptive text."
+msgstr ""
+"Тип поста служения используется для представления нескольких служений "
+"церкви. Поскольку они не меняются очень часто, в отличие от событий, "
+"ожидается, что они будут более яркими в своем дизайне. Виджеты министерств "
+"поддерживают избранные изображения и могут выдерживать большее "
+"форматирование описательного текста."
+
+#: church-options.php:431
+msgid "Ministries page"
+msgstr "Страница министерств"
+
+#: church-options.php:432
+msgid ""
+"Create a new page and choose the \"Ministries\" template from the \"Template"
+"\" dropdown on the right side under \"Page Attributes\". Any text entered "
+"will be displayed above the ministries."
+msgstr ""
+"Создайте новую страницу и выберите шаблон «Министерства» в раскрывающемся "
+"меню «Шаблон» с правой стороны под «Атрибутами страницы». Любой введенный "
+"текст будет отображаться над министерствами."
+
+#: church-options.php:435
+msgid ""
+"The People post type is used for the church staff. They should be entered in "
+"the order they are to be displayed. The \"Staff\" widget only displays the "
+"name and title, but the Staff page displays the full content entered in the "
+"People post."
+msgstr ""
+"Тип сообщения Люди используется для церковного персонала. Они должны быть "
+"введены в порядке их отображения. Виджет «Сотрудники» отображает только имя "
+"и заголовок, а страница «Сотрудники» отображает весь контент, введенный в "
+"публикацию «Люди»."
+
+#: church-options.php:436
+msgid ""
+"If the person's email address and phone number are entered into the "
+"appropriate fields in the \"Add New People\" screen, tapping on the person's "
+"name will begin an email and tapping the title will initiate a phone call in "
+"the widgets."
+msgstr ""
+"Если адрес электронной почты и номер телефона человека введены в "
+"соответствующие поля на экране «Добавить новых людей», при нажатии на имя "
+"человека начнется электронное письмо, а при нажатии на заголовок будет "
+"инициирован телефонный звонок в виджетах."
+
+#: church-options.php:437
+msgid "Staff page"
+msgstr "Страница персонала"
+
+#: church-options.php:438
+msgid ""
+"Create a new page and choose the \"Staff\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the staff."
+msgstr ""
+"Создайте новую страницу и выберите шаблон «Персонал» в раскрывающемся меню "
+"«Шаблон» справа под «Атрибутами страницы». Любой введенный текст будет "
+"отображаться над персоналом."
+
+#: church-options.php:441
+msgid ""
+"The Verses post type is intended only for use with the Random Verses widget "
+"that comes with this plugin. They can also be used with any widget that "
+"allows selection of post types. Since the widget simply displays a random "
+"verse post, there are no settings and no dedicated page for displaying them."
+msgstr ""
+"Тип публикации «Стихи» предназначен только для использования с виджетом "
+"«Случайные стихи», который поставляется с этим плагином. Их также можно "
+"использовать с любым виджетом, который позволяет выбирать типы сообщений. "
+"Поскольку виджет просто отображает случайный стих, нет никаких настроек и "
+"отдельной страницы для их отображения."
+
+#: church-options.php:444
+msgid ""
+"Below you will find the code we used with Contact Form 7 to create the "
+"contact form used on the Contact page in the HTML mockup. Simply copy all of "
+"the code and paste it into the \"Form\" section."
+msgstr ""
+"Ниже вы найдете код, который мы использовали с контактной формой 7 для "
+"создания контактной формы, используемой на странице контактов в макете HTML. "
+"Просто скопируйте весь код и вставьте его в раздел «Форма»."
+
+#: church-options.php:500
+msgid "Check this box to use the Announcements post type."
+msgstr "Установите этот флажок, чтобы использовать тип сообщения «Объявления»."
+
+#: church-options.php:505
+msgid "Check this box to use the Events post type."
+msgstr "Установите этот флажок, чтобы использовать тип сообщения «События»."
+
+#: church-options.php:512
+msgid "Check this box to use the Ministries post type."
+msgstr "Установите этот флажок, чтобы использовать тип сообщения министерств."
+
+#: church-options.php:517
+msgid "Check this box to use the Sermons post type."
+msgstr "Установите этот флажок, чтобы использовать тип сообщения «Проповеди»."
+
+#: church-options.php:524
+msgid "Check this box to use the People post type."
+msgstr "Установите этот флажок, чтобы использовать тип публикации Люди."
+
+#: church-options.php:529
+msgid "Check this box to use the Verses post type."
+msgstr "Установите этот флажок, чтобы использовать тип сообщения «Стихи»."
+
+#: cpt/church-announcements.php:10
+msgid "Announcement"
+msgstr "Объявление"
+
+#: cpt/church-announcements.php:55
+msgid "Expiration Date"
+msgstr "Срок годности"
+
+#: cpt/church-announcements.php:58
+msgid ""
+"Please choose the date you want the announcement to stop being shown, "
+"typically the day after whatever the announcement is about. The announcement "
+"will not be shown but will still be available in search."
+msgstr ""
+"Пожалуйста, выберите дату, когда вы хотите, чтобы объявление перестало "
+"показываться, обычно на следующий день после объявления. Объявление не будет "
+"отображаться, но все равно будет доступно для поиска."
+
+#: cpt/church-announcements.php:66
+msgid "Contact Name 1"
+msgstr "Контактное лицо 1"
+
+#: cpt/church-announcements.php:78
+msgid "Contact Number 1"
+msgstr "Контактный телефон № 1"
+
+#: cpt/church-announcements.php:82 cpt/church-announcements.php:107
+msgid "Start with area code, no dashes"
+msgstr "Начните с кода города, без тире"
+
+#: cpt/church-announcements.php:91
+msgid "Contact Name 2"
+msgstr "Контактное лицо 2"
+
+#: cpt/church-announcements.php:103
+msgid "Contact Number 2"
+msgstr "Контактный телефон № 2"
+
+#: cpt/church-events.php:10
+msgid "Event"
+msgstr "Событие"
+
+#: cpt/church-events.php:42
+msgid "Event Options"
+msgstr "Настройки событий"
+
+#: cpt/church-events.php:46
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: cpt/church-events.php:49
+msgid "Please choose the day on which this event will begin"
+msgstr "Пожалуйста, выберите день, когда это событие начнется"
+
+#: cpt/church-events.php:56
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: cpt/church-events.php:59
+msgid ""
+"Please choose the day on which this event will end. If it occurs on only one "
+"day feel free to leave this field empty."
+msgstr ""
+"Пожалуйста, выберите день, когда это событие закончится. Если это происходит "
+"только в один день, не стесняйтесь оставлять это поле пустым."
+
+#: cpt/church-events.php:66
+msgid "Start Time"
+msgstr "Время начала"
+
+#: cpt/church-events.php:69
+msgid "Please enter the time at which this event starts."
+msgstr "Пожалуйста, введите время начала этого события."
+
+#: cpt/church-events.php:79
+msgid "End Time"
+msgstr "Время окончания"
+
+#: cpt/church-events.php:82
+msgid ""
+"Please enter the time at which this event ends. If it is an open-ended "
+"event, just leave this field empty."
+msgstr ""
+"Пожалуйста, введите время окончания этого события. Если это открытое "
+"событие, просто оставьте это поле пустым."
+
+#: cpt/church-events.php:92
+#: lib/advanced-custom-fields/core/controllers/field_group.php:398
+msgid "Location"
+msgstr "Местоположение"
+
+#: cpt/church-events.php:95
+msgid "Please enter the place at which this event will take place."
+msgstr "Пожалуйста, введите место, где будет проходить это мероприятие."
+
+#: cpt/church-events.php:105
+msgid "Google Map Link"
+msgstr "Google Map Link"
+
+#: cpt/church-events.php:108
+msgid ""
+"Go to <a href=\"http://maps.google.com\" target=\"_blank\">maps.google.com</"
+"a> and find the location, click on \"Share\", copy the link, then paste it "
+"into this field."
+msgstr ""
+"Перейдите на <a href=“http://maps.google.com” target=“_blank”> maps.google."
+"com </a> и найдите местоположение, нажмите «Поделиться», скопируйте ссылку и "
+"вставьте ее. в этой области."
+
+#: cpt/church-events.php:117
+msgid "Expiration"
+msgstr "Срок действия"
+
+#: cpt/church-events.php:120
+msgid ""
+"Please choose the date you want the event stop being shown, typically the "
+"day after the event. The event will not be shown on the Events page after "
+"that date but will still be available in search."
+msgstr ""
+"Пожалуйста, выберите дату, когда вы хотите, чтобы событие перестало "
+"отображаться, обычно на следующий день после события. Событие не будет "
+"отображаться на странице событий после этой даты, но все равно будет "
+"доступно в поиске."
+
+#: cpt/church-events.php:127
+msgid "Contact Name"
+msgstr "Контактное лицо"
+
+#: cpt/church-events.php:130
+#, fuzzy
+msgid "Please enter the name of the person to contact about this event."
+msgstr ""
+"Пожалуйста, введите имя пользователя, которому нужно связаться с этим "
+"событием."
+
+#: cpt/church-events.php:140
+msgid "Contact Number"
+msgstr "Контактный телефон № 1"
+
+#: cpt/church-events.php:143
+#, fuzzy
+msgid "Please enter the phone number of the contact person."
+msgstr "Пожалуйста, введите номер телефона контактного лица."
+
+#: cpt/church-events.php:153
+msgid "2nd Contact Name"
+msgstr "Контактное лицо 2"
+
+#: cpt/church-events.php:156
+#, fuzzy
+msgid "If there is a second contact person, enter their name here."
+msgstr "Если есть второе контактное лицо, введите здесь свое имя."
+
+#: cpt/church-events.php:166
+msgid "2nd Contact Number"
+msgstr "Контактный телефон № 2"
+
+#: cpt/church-events.php:169
+#, fuzzy
+msgid "Please enter the phone number of the second contact person."
+msgstr "Пожалуйста, введите номер телефона второго контактного лица."
+
+#: cpt/church-ministries.php:10
+#, fuzzy
+msgid "Ministry"
+msgstr "Министерство"
+
+#: cpt/church-people.php:16
+#, fuzzy
+msgid "Enter information for your church staff."
+msgstr "Введите информацию для вас церковного персонала."
+
+#: cpt/church-people.php:42
+#, fuzzy
+msgid ""
+"Staff will be displayed in the same order they are entered, i.e. the first "
+"entered will be the first shown."
+msgstr ""
+"Персонал будет отображаться в том же порядке, в котором они введены, то есть "
+"первый введенный будет первым показано."
+
+#: cpt/church-people.php:55
+msgctxt "The person's position within the church"
+msgid "Title"
+msgstr "Hазвание"
+
+#: cpt/church-people.php:67
+#, fuzzy
+msgid "Staff Phone Number"
+msgstr "Номер телефона персонала"
+
+#: cpt/church-people.php:79
+#, fuzzy
+msgid "Staff Email"
+msgstr "Электронная почта персонала"
+
+#: cpt/church-people.php:89
+msgid "Profile"
+msgstr "Профиль"
+
+#: cpt/church-people.php:92
+#, fuzzy
+msgid "Please provide a short profile for this person."
+msgstr "Пожалуйста, предоставьте краткий профиль для этого человека."
+
+#: cpt/church-sermons.php:10
+msgid "Sermon"
+msgstr "Проповедь"
+
+#: cpt/church-sermons.php:41
+msgctxt "taxonomy general name"
+msgid "Topics"
+msgstr "Темы"
+
+#: cpt/church-sermons.php:42
+msgctxt "taxonomy singular name"
+msgid "Topic"
+msgstr "Тема"
+
+#: cpt/church-sermons.php:43
+msgid "Search Topics"
+msgstr "Поиск Тем"
+
+#: cpt/church-sermons.php:44
+msgid "All Topics"
+msgstr "Все темы"
+
+#: cpt/church-sermons.php:45
+msgid "Parent Topic"
+msgstr "Родительская Тема"
+
+#: cpt/church-sermons.php:46
+msgid "Parent Topic:"
+msgstr "Родительская Тема:"
+
+#: cpt/church-sermons.php:47
+msgid "Edit Topic"
+msgstr "Редактировать тему"
+
+#: cpt/church-sermons.php:48
+msgid "Update Topic"
+msgstr "Обновить тему"
+
+#: cpt/church-sermons.php:49
+msgid "Add New Topic"
+msgstr "Добавить Новую Тему"
+
+#: cpt/church-sermons.php:50
+#, fuzzy
+msgid "New Topic Name"
+msgstr "Новое название темы"
+
+#: cpt/church-sermons.php:51
+msgid "Topics"
+msgstr "Темы"
+
+#: cpt/church-sermons.php:73
+#, fuzzy
+msgid "Preached Date"
+msgstr "Проповедуемая Дата"
+
+#: cpt/church-sermons.php:76
+#, fuzzy
+msgid "Please choose the date on which the sermon was preached."
+msgstr "Пожалуйста, выберите дату проповеди проповеди."
+
+#: cpt/church-sermons.php:84
+#, fuzzy
+msgid "Verse Reference"
+msgstr "Ссылка на стихи"
+
+#: cpt/church-sermons.php:97
+#, fuzzy
+msgid "Short Summary"
+msgstr "Краткое резюме"
+
+#: cpt/church-sermons.php:109
+msgid "Speaker"
+msgstr "Спикер"
+
+#: cpt/church-sermons.php:121
+#, fuzzy
+msgid "Recording File"
+msgstr "Файл записи"
+
+#: cpt/church-verses.php:10
+#, fuzzy
+msgid "Verse"
+msgstr "Стих"
+
+#: cpt/church-verses.php:16
+#, fuzzy
+msgid "Please place the reference in the title field"
+msgstr "Пожалуйста, поместите ссылку в поле заголовка"
+
+#: cpt/church-verses.php:42
+#, fuzzy
+msgid ""
+"Please place the verse reference citation in the title field and the verse "
+"text in the main text area."
+msgstr ""
+"Пожалуйста, поместите ссылку на стихи в поле заголовка и текст стиха в "
+"основной текстовой области."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Church Options"
+msgstr "Церковные варианты"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"An all-in-one solution for churches to add the custom post types and custom "
+"fields they need for an effective website."
+msgstr ""
+"Все-в-одном решение для церквей, чтобы добавить пользовательские типы поста "
+"и настраиваемые поля, они должны для эффективного веб-сайта."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Tim Lawson @ Quixotic Studios"
+msgstr "Тим Лоусон @ донкихотский студии"
+
+#~ msgid "Dashboard"
+#~ msgstr "Панель управления"
+
+#~ msgid "Plugin Settings"
+#~ msgstr "Настройки плагина"
+
+#, fuzzy
+#~ msgid "Please fill in the title, though it will not be shown in the widget."
+#~ msgstr ""
+#~ "Пожалуйста, заполните заголовок, хотя он не будет отображаться в виджете."
+
+#, fuzzy
+#~ msgid "Widget for displaying random Bible verses"
+#~ msgstr "Виджет для отображения случайных библейских стихов"
+
+#, fuzzy
+#~ msgid "Church Verses Widget"
+#~ msgstr "Церковные стихи виджет"

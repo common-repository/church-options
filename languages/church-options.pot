@@ -1,0 +1,581 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Church Options\n"
+"POT-Creation-Date: 2019-06-11 20:20-0500\n"
+"PO-Revision-Date: 2019-03-24 20:34-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: church-options.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: church-options.php:207
+msgid ""
+"Church Options has not been tested with your version of Wordpress. It may "
+"still work though..."
+msgstr ""
+
+#: church-options.php:353
+msgid ""
+"The Church Options plugin creates all of the custom post types churches need "
+"for an effective Web site."
+msgstr ""
+
+#: church-options.php:358 church-options.php:383 church-options.php:497
+#: cpt/church-announcements.php:9 cpt/church-announcements.php:14
+#: cpt/church-announcements.php:51
+msgid "Announcements"
+msgstr ""
+
+#: church-options.php:359 church-options.php:384 church-options.php:502
+#: cpt/church-events.php:9 cpt/church-events.php:14
+msgid "Events"
+msgstr ""
+
+#: church-options.php:360 church-options.php:385 church-options.php:514
+#: cpt/church-sermons.php:9 cpt/church-sermons.php:14
+msgid "Sermons"
+msgstr ""
+
+#: church-options.php:361 church-options.php:386 church-options.php:509
+#: cpt/church-ministries.php:9 cpt/church-ministries.php:14
+msgid "Ministries"
+msgstr ""
+
+#: church-options.php:362 church-options.php:387 church-options.php:521
+#: cpt/church-people.php:9 cpt/church-people.php:10 cpt/church-people.php:14
+msgid "People"
+msgstr ""
+
+#: church-options.php:363 church-options.php:388 church-options.php:526
+#: cpt/church-verses.php:9 cpt/church-verses.php:14
+msgid "Verses"
+msgstr ""
+
+#: church-options.php:377
+#: lib/advanced-custom-fields/core/controllers/export.php:300
+#: lib/advanced-custom-fields/core/fields/tab.php:65
+msgid "Instructions"
+msgstr ""
+
+#: church-options.php:378
+msgid ""
+"Click the tabs below for detailed instructions for using the custom post "
+"types."
+msgstr ""
+
+#: church-options.php:389
+msgid "Contact"
+msgstr ""
+
+#: church-options.php:394
+msgid ""
+"Once the Announcements post type has been selected in the Church Options "
+"settings, the Announcements will appear in the sidebar under \"Comments\"."
+msgstr ""
+
+#: church-options.php:396
+msgid ""
+"Click on \"Announcements\" and choose \"Add New\", just like a regular post."
+msgstr ""
+
+#: church-options.php:397
+msgid ""
+"Fill in the title as usual, then enter what you want the announcement to say "
+"in the content area."
+msgstr ""
+
+#: church-options.php:398
+msgid "Enter the information for up to two contacts. This is not required."
+msgstr ""
+
+#: church-options.php:399
+msgid ""
+"Then choose the date you want the announcement to stop showing. This uses a "
+"standard date picker: just click the field, then click the day of the month "
+"in the calendar that appears."
+msgstr ""
+
+#: church-options.php:400
+msgid "Lastly, click the \"Publish\" button as usual."
+msgstr ""
+
+#: church-options.php:402
+msgid ""
+"There are two ways of displaying Announcements: the Slider widget and the "
+"Bootstrap Carousel widget. The Announcements Slider widget has several "
+"options for transition and timing, while the Boostrap Carousel is a simple "
+"sliding carousel. Both will display the announcements which have not "
+"expired, according to the date entered in the \"Expiration Date\" field. The "
+"announcement content can be styled, but it is best to keep such styling to a "
+"minimum to prevent breaking the layout of the widget."
+msgstr ""
+
+#: church-options.php:405
+msgid ""
+"The Events post type has many fields that can be filled in for many "
+"different situations. Activating the Events post type also makes available "
+"the Events widgets. There is one for a horizontal layout and one for "
+"vertical."
+msgstr ""
+
+#: church-options.php:407
+msgid "Select the Events in the sidebar and choose \"Add New\"."
+msgstr ""
+
+#: church-options.php:408
+msgid "Enter the event title in the title field."
+msgstr ""
+
+#: church-options.php:409
+msgid "Fill in the event details in the content area."
+msgstr ""
+
+#: church-options.php:411
+msgid ""
+"Most of the rest of the fields are optional, but it is recommended that the "
+"start date and time be filled in as well as the contact persons. Categories "
+"and tags can be added, and can be searched, but they do not appear on the "
+"front end."
+msgstr ""
+
+#: church-options.php:412
+msgid ""
+"The Events widgets will display different amounts of information depending "
+"on whether it is the vertical or horizontal version. The vertical version "
+"displays less due to the need to conserve space in the sidebar and footer "
+"areas."
+msgstr ""
+
+#: church-options.php:413
+msgid "Events page"
+msgstr ""
+
+#: church-options.php:414
+msgid ""
+"Create a new page and choose the \"Events\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the events."
+msgstr ""
+
+#: church-options.php:417
+msgid ""
+"The Sermons post type is intended for making available recordings of the "
+"sermons in the MP3 format. The MP3s files can be downloaded or listened to "
+"right on the Web site. Other audio formats can be used, but MP3 is "
+"recommended for the greatest compatabilty."
+msgstr ""
+
+#: church-options.php:418
+msgid "To make a Sermons post"
+msgstr ""
+
+#: church-options.php:420
+msgid ""
+"Select the \"Add New\" link under the \"Sermons\" post type in the sidebar."
+msgstr ""
+
+#: church-options.php:421
+msgid "Enter the sermon title in the title field."
+msgstr ""
+
+#: church-options.php:422
+msgid "Enter a short summary of the sermon in the content area."
+msgstr ""
+
+#: church-options.php:423
+msgid "Choose the MP3 file from the field selector under the content area."
+msgstr ""
+
+#: church-options.php:424
+msgid ""
+"The categories can be used to add topics of the sermons which can be "
+"searched."
+msgstr ""
+
+#: church-options.php:426
+msgid "Sermons page"
+msgstr ""
+
+#: church-options.php:427
+msgid ""
+"Create a new page and choose the \"Sermons\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the sermons."
+msgstr ""
+
+#: church-options.php:430
+msgid ""
+"The Ministries post type is used to present the church's several ministries. "
+"Since these don't change very often, unlike events, they are expected to be "
+"a little more flamboyant in their design. The Ministries widgets supprt "
+"featured images, and can withstand more formatting of the descriptive text."
+msgstr ""
+
+#: church-options.php:431
+msgid "Ministries page"
+msgstr ""
+
+#: church-options.php:432
+msgid ""
+"Create a new page and choose the \"Ministries\" template from the \"Template"
+"\" dropdown on the right side under \"Page Attributes\". Any text entered "
+"will be displayed above the ministries."
+msgstr ""
+
+#: church-options.php:435
+msgid ""
+"The People post type is used for the church staff. They should be entered in "
+"the order they are to be displayed. The \"Staff\" widget only displays the "
+"name and title, but the Staff page displays the full content entered in the "
+"People post."
+msgstr ""
+
+#: church-options.php:436
+msgid ""
+"If the person's email address and phone number are entered into the "
+"appropriate fields in the \"Add New People\" screen, tapping on the person's "
+"name will begin an email and tapping the title will initiate a phone call in "
+"the widgets."
+msgstr ""
+
+#: church-options.php:437
+msgid "Staff page"
+msgstr ""
+
+#: church-options.php:438
+msgid ""
+"Create a new page and choose the \"Staff\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the staff."
+msgstr ""
+
+#: church-options.php:441
+msgid ""
+"The Verses post type is intended only for use with the Random Verses widget "
+"that comes with this plugin. They can also be used with any widget that "
+"allows selection of post types. Since the widget simply displays a random "
+"verse post, there are no settings and no dedicated page for displaying them."
+msgstr ""
+
+#: church-options.php:444
+msgid ""
+"Below you will find the code we used with Contact Form 7 to create the "
+"contact form used on the Contact page in the HTML mockup. Simply copy all of "
+"the code and paste it into the \"Form\" section."
+msgstr ""
+
+#: church-options.php:500
+msgid "Check this box to use the Announcements post type."
+msgstr ""
+
+#: church-options.php:505
+msgid "Check this box to use the Events post type."
+msgstr ""
+
+#: church-options.php:512
+msgid "Check this box to use the Ministries post type."
+msgstr ""
+
+#: church-options.php:517
+msgid "Check this box to use the Sermons post type."
+msgstr ""
+
+#: church-options.php:524
+msgid "Check this box to use the People post type."
+msgstr ""
+
+#: church-options.php:529
+msgid "Check this box to use the Verses post type."
+msgstr ""
+
+#: cpt/church-announcements.php:10
+msgid "Announcement"
+msgstr ""
+
+#: cpt/church-announcements.php:55
+msgid "Expiration Date"
+msgstr ""
+
+#: cpt/church-announcements.php:58
+msgid ""
+"Please choose the date you want the announcement to stop being shown, "
+"typically the day after whatever the announcement is about. The announcement "
+"will not be shown but will still be available in search."
+msgstr ""
+
+#: cpt/church-announcements.php:66
+msgid "Contact Name 1"
+msgstr ""
+
+#: cpt/church-announcements.php:78
+msgid "Contact Number 1"
+msgstr ""
+
+#: cpt/church-announcements.php:82 cpt/church-announcements.php:107
+msgid "Start with area code, no dashes"
+msgstr ""
+
+#: cpt/church-announcements.php:91
+msgid "Contact Name 2"
+msgstr ""
+
+#: cpt/church-announcements.php:103
+msgid "Contact Number 2"
+msgstr ""
+
+#: cpt/church-events.php:10
+msgid "Event"
+msgstr ""
+
+#: cpt/church-events.php:42
+msgid "Event Options"
+msgstr ""
+
+#: cpt/church-events.php:46
+msgid "Start Date"
+msgstr ""
+
+#: cpt/church-events.php:49
+msgid "Please choose the day on which this event will begin"
+msgstr ""
+
+#: cpt/church-events.php:56
+msgid "End Date"
+msgstr ""
+
+#: cpt/church-events.php:59
+msgid ""
+"Please choose the day on which this event will end. If it occurs on only one "
+"day feel free to leave this field empty."
+msgstr ""
+
+#: cpt/church-events.php:66
+msgid "Start Time"
+msgstr ""
+
+#: cpt/church-events.php:69
+msgid "Please enter the time at which this event starts."
+msgstr ""
+
+#: cpt/church-events.php:79
+msgid "End Time"
+msgstr ""
+
+#: cpt/church-events.php:82
+msgid ""
+"Please enter the time at which this event ends. If it is an open-ended "
+"event, just leave this field empty."
+msgstr ""
+
+#: cpt/church-events.php:92
+#: lib/advanced-custom-fields/core/controllers/field_group.php:398
+msgid "Location"
+msgstr ""
+
+#: cpt/church-events.php:95
+msgid "Please enter the place at which this event will take place."
+msgstr ""
+
+#: cpt/church-events.php:105
+msgid "Google Map Link"
+msgstr ""
+
+#: cpt/church-events.php:108
+msgid ""
+"Go to <a href=\"http://maps.google.com\" target=\"_blank\">maps.google.com</"
+"a> and find the location, click on \"Share\", copy the link, then paste it "
+"into this field."
+msgstr ""
+
+#: cpt/church-events.php:117
+msgid "Expiration"
+msgstr ""
+
+#: cpt/church-events.php:120
+msgid ""
+"Please choose the date you want the event stop being shown, typically the "
+"day after the event. The event will not be shown on the Events page after "
+"that date but will still be available in search."
+msgstr ""
+
+#: cpt/church-events.php:127
+msgid "Contact Name"
+msgstr ""
+
+#: cpt/church-events.php:130
+msgid "Please enter the name of the person to contact about this event."
+msgstr ""
+
+#: cpt/church-events.php:140
+msgid "Contact Number"
+msgstr ""
+
+#: cpt/church-events.php:143
+msgid "Please enter the phone number of the contact person."
+msgstr ""
+
+#: cpt/church-events.php:153
+msgid "2nd Contact Name"
+msgstr ""
+
+#: cpt/church-events.php:156
+msgid "If there is a second contact person, enter their name here."
+msgstr ""
+
+#: cpt/church-events.php:166
+msgid "2nd Contact Number"
+msgstr ""
+
+#: cpt/church-events.php:169
+msgid "Please enter the phone number of the second contact person."
+msgstr ""
+
+#: cpt/church-ministries.php:10
+msgid "Ministry"
+msgstr ""
+
+#: cpt/church-people.php:16
+msgid "Enter information for your church staff."
+msgstr ""
+
+#: cpt/church-people.php:42
+msgid ""
+"Staff will be displayed in the same order they are entered, i.e. the first "
+"entered will be the first shown."
+msgstr ""
+
+#: cpt/church-people.php:55
+msgctxt "The person's position within the church"
+msgid "Title"
+msgstr ""
+
+#: cpt/church-people.php:67
+msgid "Staff Phone Number"
+msgstr ""
+
+#: cpt/church-people.php:79
+msgid "Staff Email"
+msgstr ""
+
+#: cpt/church-people.php:89
+msgid "Profile"
+msgstr ""
+
+#: cpt/church-people.php:92
+msgid "Please provide a short profile for this person."
+msgstr ""
+
+#: cpt/church-sermons.php:10
+msgid "Sermon"
+msgstr ""
+
+#: cpt/church-sermons.php:41
+msgctxt "taxonomy general name"
+msgid "Topics"
+msgstr ""
+
+#: cpt/church-sermons.php:42
+msgctxt "taxonomy singular name"
+msgid "Topic"
+msgstr ""
+
+#: cpt/church-sermons.php:43
+msgid "Search Topics"
+msgstr ""
+
+#: cpt/church-sermons.php:44
+msgid "All Topics"
+msgstr ""
+
+#: cpt/church-sermons.php:45
+msgid "Parent Topic"
+msgstr ""
+
+#: cpt/church-sermons.php:46
+msgid "Parent Topic:"
+msgstr ""
+
+#: cpt/church-sermons.php:47
+msgid "Edit Topic"
+msgstr ""
+
+#: cpt/church-sermons.php:48
+msgid "Update Topic"
+msgstr ""
+
+#: cpt/church-sermons.php:49
+msgid "Add New Topic"
+msgstr ""
+
+#: cpt/church-sermons.php:50
+msgid "New Topic Name"
+msgstr ""
+
+#: cpt/church-sermons.php:51
+msgid "Topics"
+msgstr ""
+
+#: cpt/church-sermons.php:73
+msgid "Preached Date"
+msgstr ""
+
+#: cpt/church-sermons.php:76
+msgid "Please choose the date on which the sermon was preached."
+msgstr ""
+
+#: cpt/church-sermons.php:84
+msgid "Verse Reference"
+msgstr ""
+
+#: cpt/church-sermons.php:97
+msgid "Short Summary"
+msgstr ""
+
+#: cpt/church-sermons.php:109
+msgid "Speaker"
+msgstr ""
+
+#: cpt/church-sermons.php:121
+msgid "Recording File"
+msgstr ""
+
+#: cpt/church-verses.php:10
+msgid "Verse"
+msgstr ""
+
+#: cpt/church-verses.php:16
+msgid "Please place the reference in the title field"
+msgstr ""
+
+#: cpt/church-verses.php:42
+msgid ""
+"Please place the verse reference citation in the title field and the verse "
+"text in the main text area."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Church Options"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An all-in-one solution for churches to add the custom post types and custom "
+"fields they need for an effective website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tim Lawson @ Quixotic Studios"
+msgstr ""

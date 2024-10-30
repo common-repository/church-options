@@ -1,0 +1,2745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Church Options\n"
+"POT-Creation-Date: 2019-03-24 20:35-0500\n"
+"PO-Revision-Date: 2019-03-24 20:40-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: church-options.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: church-options.php:109
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: church-options.php:111
+msgid "Plugin Settings"
+msgstr "Paramètres du plugin"
+
+#: church-options.php:207
+#, fuzzy
+msgid ""
+"Church Options has not been tested with your version of Wordpress. It may "
+"still work though..."
+msgstr ""
+"Church options n'a pas été testé avec votre version de WordPress. Il peut "
+"encore fonctionner si..."
+
+#: church-options.php:358 church-options.php:383 church-options.php:497
+#: cpt/church-announcements.php:9 cpt/church-announcements.php:14
+#: cpt/church-announcements.php:51
+msgid "Announcements"
+msgstr "Annonces"
+
+#: church-options.php:359 church-options.php:384 church-options.php:502
+#: cpt/church-events.php:9 cpt/church-events.php:14
+msgid "Events"
+msgstr "Événements"
+
+#: church-options.php:360 church-options.php:385 church-options.php:514
+#: cpt/church-sermons.php:9 cpt/church-sermons.php:14
+msgid "Sermons"
+msgstr "Médiathèque"
+
+#: church-options.php:361 church-options.php:386 church-options.php:509
+#: cpt/church-ministries.php:9 cpt/church-ministries.php:14
+#, fuzzy
+msgid "Ministries"
+msgstr "Ministères"
+
+#: church-options.php:362 church-options.php:387 church-options.php:521
+#: cpt/church-people.php:9 cpt/church-people.php:10 cpt/church-people.php:14
+msgid "People"
+msgstr "Personnes"
+
+#: church-options.php:363 church-options.php:388 church-options.php:526
+#: cpt/church-verses.php:9 cpt/church-verses.php:14
+#, fuzzy
+msgid "Verses"
+msgstr "Versets"
+
+#: church-options.php:377
+#: lib/advanced-custom-fields/core/controllers/export.php:300
+#: lib/advanced-custom-fields/core/fields/tab.php:65
+msgid "Instructions"
+msgstr "Instructions"
+
+#: church-options.php:378
+#, fuzzy
+msgid ""
+"Click the tabs below for detailed instructions for using the custom post "
+"types."
+msgstr ""
+"Cliquez sur les onglets ci-dessous pour obtenir des instructions détaillées "
+"sur l'utilisation des types de publication personnalisés."
+
+#: church-options.php:389
+msgid "Contact"
+msgstr "Contact"
+
+#: church-options.php:394
+#, fuzzy
+msgid ""
+"Once the Announcements post type has been selected in the Church Options "
+"settings, the Announcements will appear in the sidebar under \"Comments\"."
+msgstr ""
+"Une fois que le type de message annonces a été sélectionné dans les "
+"paramètres d'options de l'église, les annonces apparaîtront dans la barre "
+"latérale sous «commentaires»."
+
+#: church-options.php:396
+#, fuzzy
+msgid ""
+"Click on \"Announcements\" and choose \"Add New\", just like a regular post."
+msgstr ""
+"Cliquez sur \"annonces\" et choisissez \"Ajouter nouveau\", tout comme un "
+"poste régulier."
+
+#: church-options.php:397
+#, fuzzy
+msgid ""
+"Fill in the title as usual, then enter what you want the announcement to say "
+"in the content area."
+msgstr ""
+"Remplissez le titre comme d'habitude, puis entrez ce que vous voulez "
+"l'annonce à dire dans la zone de contenu."
+
+#: church-options.php:398
+#, fuzzy
+msgid "Enter the information for up to two contacts. This is not required."
+msgstr ""
+"Entrez les informations pour jusqu'à deux contacts. Ce n'est pas nécessaire."
+
+#: church-options.php:399
+#, fuzzy
+msgid ""
+"Then choose the date you want the announcement to stop showing. This uses a "
+"standard date picker: just click the field, then click the day of the month "
+"in the calendar that appears."
+msgstr ""
+"Choisissez ensuite la date à laquelle vous souhaitez que l'annonce cesse de "
+"s'afficher. Cela utilise un sélecteur de date standard: cliquez simplement "
+"sur le champ, puis cliquez sur le jour du mois dans le calendrier qui "
+"s'affiche."
+
+#: church-options.php:400
+#, fuzzy
+msgid "Lastly, click the \"Publish\" button as usual."
+msgstr "Enfin, cliquez sur le bouton \"publier\" comme d'habitude."
+
+#: church-options.php:402
+#, fuzzy
+msgid ""
+"There are two ways of displaying Announcements: the Slider widget and the "
+"Bootstrap Carousel widget. The Announcements Slider widget has several "
+"options for transition and timing, while the Boostrap Carousel is a simple "
+"sliding carousel. Both will display the announcements which have not "
+"expired, according to the date entered in the \"Expiration Date\" field. The "
+"announcement content can be styled, but it is best to keep such styling to a "
+"minimum to prevent beaking the layout of the widget."
+msgstr ""
+"Il y a deux façons d'afficher les annonces: le widget Slider et le widget "
+"bootstrap Carousel. Le widget curseur annonces a plusieurs options pour la "
+"transition et le timing, tandis que le carrousel boostrap est un simple "
+"carrousel coulissant. Les deux afficheront les annonces qui n'ont pas "
+"expiré, en fonction de la date saisie dans le champ \"date d'expiration\". "
+"Le contenu de l'annonce peut être stylisé, mais il est préférable de garder "
+"un tel style à un minimum pour éviter de faire la mise en page du widget."
+
+#: church-options.php:405
+#, fuzzy
+msgid ""
+"The Events post type has many fields that can be filled in for many "
+"different situations. Activating the Events post type also makes available "
+"the Events widgets. There is one for a horizontal layout and one for "
+"vertical."
+msgstr ""
+"Le type de poste événements a de nombreux champs qui peuvent être remplis "
+"pour de nombreuses situations différentes. L'activation du type de "
+"publication Events met également à disposition les widgets Events. Il y en a "
+"une pour une disposition horizontale et une pour vertical."
+
+#: church-options.php:407
+#, fuzzy
+msgid "Select the Events in the sidebar and choose \"Add New\"."
+msgstr ""
+"Sélectionnez les événements dans la barre latérale et choisissez \"Ajouter "
+"nouveau\"."
+
+#: church-options.php:408
+#, fuzzy
+msgid "Enter the event title in the title field."
+msgstr "Veuillez placer la référence dans le champ de titre"
+
+#: church-options.php:409
+#, fuzzy
+msgid "Fill in the event details in the content area."
+msgstr "Remplissez les détails de l'événement dans la zone de contenu."
+
+#: church-options.php:411
+#, fuzzy
+msgid ""
+"Most of the rest of the fields are optional, but it is recommended that the "
+"start date and time be filled in as well as the contact persons. Categories "
+"and tags can be added, and can be searched, but they do not appear on the "
+"front end."
+msgstr ""
+"La plupart des autres champs sont facultatifs, mais il est recommandé de "
+"remplir la date et l'heure de début ainsi que les personnes de contact. Les "
+"catégories et les balises peuvent être ajoutées et peuvent être recherchées, "
+"mais elles n'apparaissent pas sur l'extrémité avant."
+
+#: church-options.php:412
+#, fuzzy
+msgid ""
+"The Events widgets will display different amounts of information depending "
+"on whether it is the vertical or horizontal version. The vertical version "
+"displays less due to the need to conserve space in the sidebar and footer "
+"areas."
+msgstr ""
+"Les widgets Events afficheront différentes quantités d'informations selon "
+"qu'il s'agit de la version verticale ou horizontale. La version verticale "
+"affiche moins en raison de la nécessité de conserver l'espace dans les zones "
+"de barre latérale et de pied de page."
+
+#: church-options.php:413
+msgid "Events page"
+msgstr "Page évènements"
+
+#: church-options.php:414
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Events\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the events."
+msgstr ""
+"Créez une nouvelle page et choisissez le modèle \"Events\" dans la liste "
+"déroulante \"template\" sur le côté droit sous \"page Attributes\". Tout "
+"texte saisi sera affiché au-dessus des événements."
+
+#: church-options.php:417
+#, fuzzy
+msgid ""
+"The Sermons post type is intended for making available recordings of the "
+"sermons in the MP3 format. The MP3s files can be downloaded or listened to "
+"right on the Web site. Other audio formats can be used, but MP3 is "
+"recommended for the greatest compatabilty."
+msgstr ""
+"Le type de poste sermons est destiné à la mise à disposition des "
+"enregistrements des sermons dans le format MP3. Les fichiers MP3 peuvent "
+"être téléchargés ou écoutés directement sur le site Web. D'autres formats "
+"audio peuvent être utilisés, mais MP3 est recommandé pour la plus grande "
+"compatabilty."
+
+#: church-options.php:418
+#, fuzzy
+msgid "To make a Sermons post"
+msgstr "Pour faire un post sermons"
+
+#: church-options.php:420
+#, fuzzy
+msgid ""
+"Select the \"Add New\" link under the \"Sermons\" post type in the sidebar."
+msgstr ""
+"Sélectionnez le lien \"Ajouter nouveau\" sous le type de message \"sermons\" "
+"dans la barre latérale."
+
+#: church-options.php:421
+#, fuzzy
+msgid "Enter the sermon title in the title field."
+msgstr "Veuillez placer la référence dans le champ de titre"
+
+#: church-options.php:422
+#, fuzzy
+msgid "Enter a short summary of the sermon in the content area."
+msgstr "Entrez un bref résumé du sermon dans la zone de contenu."
+
+#: church-options.php:423
+#, fuzzy
+msgid "Choose the MP3 file from the field selector under the content area."
+msgstr ""
+"Choisissez le fichier MP3 à partir du sélecteur de champ sous la zone de "
+"contenu."
+
+#: church-options.php:424
+#, fuzzy
+msgid ""
+"The categories can be used to add topics of the sermons which can be "
+"searched."
+msgstr ""
+"Les catégories peuvent être utilisées pour ajouter des sujets des sermons "
+"qui peuvent être recherchés."
+
+#: church-options.php:426
+#, fuzzy
+#| msgid "Sermons"
+msgid "Sermons page"
+msgstr "Médiathèque"
+
+#: church-options.php:427
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Sermons\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the sermons."
+msgstr ""
+"Créez une nouvelle page et choisissez le modèle \"sermons\" dans la liste "
+"déroulante \"template\" sur le côté droit sous \"attributs de page\". Tout "
+"texte saisi sera affiché au-dessus des sermons."
+
+#: church-options.php:430
+#, fuzzy
+msgid ""
+"The Ministries post type is used to present the church's several ministries. "
+"Since these don't change very often, unlike events, they are expected to be "
+"a little more flamboyant in their design. The Ministries widgets supprt "
+"featured images, and can withstand more formatting of the descriptive text."
+msgstr ""
+"Le type de poste des ministères est utilisé pour présenter les différents "
+"ministères de l'église. Comme ceux-ci ne changent pas très souvent, "
+"contrairement aux événements, ils sont censés être un peu plus flamboyant "
+"dans leur conception. Les widgets ministères supprt présenté des images, et "
+"peut résister à plus de formatage du texte descriptif."
+
+#: church-options.php:431
+#, fuzzy
+msgid "Ministries page"
+msgstr "Ministères"
+
+#: church-options.php:432
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Ministries\" template from the \"Template"
+"\" dropdown on the right side under \"Page Attributes\". Any text entered "
+"will be displayed above the ministries."
+msgstr ""
+"Créez une nouvelle page et choisissez le modèle \"ministères\" dans la liste "
+"déroulante \"modèle\" sur le côté droit sous \"attributs de page\". Tout "
+"texte saisi sera affiché au-dessus des ministères."
+
+#: church-options.php:435
+#, fuzzy
+msgid ""
+"The People post type is used for the church staff. They should be entered in "
+"the order they are to be displayed. The \"Staff\" widget only displays the "
+"name and title, but the Staff page displays the full content entered in the "
+"People post."
+msgstr ""
+"Le type de poteau de personnes est employé pour le personnel d'église. Ils "
+"doivent être saisis dans l'ordre de leur affichage. Le widget «personnel» "
+"affiche uniquement le nom et le titre, mais la page personnel affiche le "
+"contenu complet entré dans la publication personnes."
+
+#: church-options.php:436
+#, fuzzy
+msgid ""
+"If the person's email address and phone number are entered into the "
+"appropriate fields in the \"Add New People\" screen, tapping on the person's "
+"name will begin an email and tapping the title will initiate a phone call in "
+"the widgets."
+msgstr ""
+"Si l'adresse e-mail et le numéro de téléphone de la personne sont entrés "
+"dans les champs appropriés de l'écran «ajouter de nouvelles personnes», le "
+"fait de taper sur le nom de la personne commencera un e-mail et la saisie du "
+"titre initiera un appel téléphonique dans les widgets."
+
+#: church-options.php:437
+#, fuzzy
+#| msgid "Staff Email"
+msgid "Staff page"
+msgstr "Courriel du personnel"
+
+#: church-options.php:438
+#, fuzzy
+msgid ""
+"Create a new page and choose the \"Staff\" template from the \"Template\" "
+"dropdown on the right side under \"Page Attributes\". Any text entered will "
+"be displayed above the staff."
+msgstr ""
+"Créez une nouvelle page et choisissez le modèle \"staff\" dans la liste "
+"déroulante \"template\" sur le côté droit sous \"page Attributes\". Tout "
+"texte saisi sera affiché au-dessus du personnel."
+
+#: church-options.php:441
+#, fuzzy
+msgid ""
+"The Verses post type is intended only for use with the Random Verses widget "
+"that comes with this plugin. They can also be used with any widget that "
+"allows selection of post types. Since the widget simply displays a random "
+"verse post, there are no settings and no dedicated page for displaying them."
+msgstr ""
+"Le type de poteau versets est conçu uniquement pour une utilisation avec le "
+"widget versets aléatoires qui vient avec ce plugin. Ils peuvent également "
+"être utilisés avec n'importe quel widget qui permet la sélection des types "
+"de poste. Depuis le widget affiche simplement un verset aléatoire post, il "
+"n'y a pas de paramètres et aucune page dédiée pour les afficher."
+
+#: church-options.php:444
+#, fuzzy
+msgid ""
+"Below you will find the code we used with Contact Form 7 to create the "
+"contact form used on the Contact page in the HTML mockup. Simply copy all of "
+"the code and paste it into the \"Form\" section."
+msgstr ""
+"Vous trouverez ci-dessous le code que nous avons utilisé avec le formulaire "
+"de contact 7 pour créer le formulaire de contact utilisé sur la page contact "
+"dans la maquette HTML. Copiez simplement tout le code et collez-le dans la "
+"section «formulaire»."
+
+#: church-options.php:500
+#, fuzzy
+msgid "Check this box to use the Announcements post type."
+msgstr "Cochez cette case pour utiliser le type de publication annonces."
+
+#: church-options.php:505
+#, fuzzy
+msgid "Check this box to use the Events post type."
+msgstr "Cochez cette case pour utiliser le type de publication Events."
+
+#: church-options.php:512
+#, fuzzy
+msgid "Check this box to use the Ministries post type."
+msgstr "Cochez cette case pour utiliser le type de poste ministères."
+
+#: church-options.php:517
+#, fuzzy
+msgid "Check this box to use the Sermons post type."
+msgstr "Cochez cette case pour utiliser le type de poste sermons."
+
+#: church-options.php:524
+#, fuzzy
+msgid "Check this box to use the People post type."
+msgstr "Cochez cette case pour utiliser le type de poste personnes."
+
+#: church-options.php:529
+#, fuzzy
+msgid "Check this box to use the Verses post type."
+msgstr "Cochez cette case pour utiliser le type de poteau versets."
+
+#: cpt/church-announcements.php:10
+msgid "Announcement"
+msgstr "Annonce"
+
+#: cpt/church-announcements.php:42
+#, fuzzy
+msgid "Please fill in the title, though it will not be shown in the widget."
+msgstr ""
+"S'il vous plaît remplir le titre, mais il ne sera pas affiché dans le widget."
+
+#: cpt/church-announcements.php:55
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: cpt/church-announcements.php:58
+#, fuzzy
+msgid ""
+"Please choose the date you want the announcement to stop being shown, "
+"typically the day after whatever the announcement is about. The announcement "
+"will not be shown but will still be available in search."
+msgstr ""
+"Veuillez choisir la date à laquelle vous souhaitez que l'annonce cesse "
+"d'être affichée, généralement le jour suivant l'annonce. L'annonce ne sera "
+"pas affichée mais sera toujours disponible dans la recherche."
+
+#: cpt/church-announcements.php:66
+#, fuzzy
+msgid "Contact Name 1"
+msgstr "Nom du contact 1"
+
+#: cpt/church-announcements.php:78
+#, fuzzy
+msgid "Contact Number 1"
+msgstr "Numéro de contact 1"
+
+#: cpt/church-announcements.php:82
+#, fuzzy
+msgid "Start with area code, no dashes"
+msgstr "Commencez par un indicatif régional, sans tirets"
+
+#: cpt/church-announcements.php:91
+#, fuzzy
+msgid "Contact Name 2"
+msgstr "Nom du contact 2"
+
+#: cpt/church-announcements.php:103
+#, fuzzy
+msgid "Contact Number 2"
+msgstr "Numéro de contact 2"
+
+#: cpt/church-events.php:10
+msgid "Event"
+msgstr "Événement"
+
+#: cpt/church-events.php:42
+msgid "Event Options"
+msgstr "Options de la sortie"
+
+#: cpt/church-events.php:46
+msgid "Start Date"
+msgstr "Date de début"
+
+#: cpt/church-events.php:49
+#, fuzzy
+msgid "Please choose the day on which this event will begin"
+msgstr "Veuillez choisir le jour où cet événement commencera"
+
+#: cpt/church-events.php:56
+msgid "End Date"
+msgstr "Date de fin"
+
+#: cpt/church-events.php:59
+#, fuzzy
+msgid ""
+"Please choose the day on which this event will end. If it occurs on only one "
+"day feel free to leave this field empty."
+msgstr ""
+"Veuillez choisir le jour où cet événement prendra fin. Si elle se produit "
+"sur un seul jour, n'hésitez pas à laisser ce champ vide."
+
+#: cpt/church-events.php:66
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: cpt/church-events.php:69
+#, fuzzy
+msgid "Please enter the time at which this event starts."
+msgstr "Veuillez entrer l'heure à laquelle cet événement démarre."
+
+#: cpt/church-events.php:79
+msgid "End Time"
+msgstr "Heure de fin"
+
+#: cpt/church-events.php:82
+#, fuzzy
+msgid ""
+"Please enter the time at which this event ends. If it is an open-ended "
+"event, just leave this field empty."
+msgstr ""
+"Veuillez entrer l'heure à laquelle cet événement se termine. S'il s'agit "
+"d'un événement à composition non limitée, laissez ce champ vide."
+
+#: cpt/church-events.php:92
+#: lib/advanced-custom-fields/core/controllers/field_group.php:398
+msgid "Location"
+msgstr "Emplacement"
+
+#: cpt/church-events.php:95
+#, fuzzy
+msgid "Please enter the place at which this event will take place."
+msgstr "Veuillez entrer l'endroit où se déroulera cet événement."
+
+#: cpt/church-events.php:105
+msgid "Google Map Link"
+msgstr "lien Google Map"
+
+#: cpt/church-events.php:108
+#, fuzzy
+msgid ""
+"Go to <a href=\"http://maps.google.com\" target=\"_blank\">maps.google.com</"
+"a> and find the location, click on \"Share\", copy the link, then paste it "
+"into this field."
+msgstr ""
+"Allez à < a href = \"http://maps.google.com\" target = \"_ blank\" > Maps. "
+"google. com </a> et trouver l'emplacement, cliquez sur \"partager\", copiez "
+"le lien, puis collez-le dans ce champ."
+
+#: cpt/church-events.php:117
+msgid "Expiration"
+msgstr "Expiration"
+
+#: cpt/church-events.php:120
+#, fuzzy
+msgid ""
+"Please choose the date you want the event stop being shown, typically the "
+"day after the event. The event will not be shown on the Events page after "
+"that date but will still be available in search."
+msgstr ""
+"Veuillez choisir la date à laquelle vous souhaitez que l'événement cesse "
+"d'être affiché, généralement le jour suivant l'événement. L'événement ne "
+"sera pas affiché sur la page Evénements après cette date, mais sera toujours "
+"disponible dans la recherche."
+
+#: cpt/church-events.php:127
+msgid "Contact Name"
+msgstr "Nom du contact"
+
+#: cpt/church-events.php:130
+#, fuzzy
+msgid "Please enter the name of the person to contact about this event."
+msgstr ""
+"Veuillez entrer le nom de la personne à contacter au sujet de cet événement."
+
+#: cpt/church-events.php:140
+msgid "Contact Number"
+msgstr "Téléphone de contact"
+
+#: cpt/church-events.php:143
+#, fuzzy
+msgid "Please enter the phone number of the contact person."
+msgstr "Veuillez entrer le numéro de téléphone de la personne-ressource."
+
+#: cpt/church-events.php:153
+#, fuzzy
+msgid "2nd Contact Name"
+msgstr "2ème nom du contact"
+
+#: cpt/church-events.php:156
+#, fuzzy
+msgid "If there is a second contact person, enter their name here."
+msgstr "S'il y a une deuxième personne de contact, entrez son nom ici."
+
+#: cpt/church-events.php:166
+#, fuzzy
+msgid "2nd Contact Number"
+msgstr "2ème numéro de contact"
+
+#: cpt/church-events.php:169
+#, fuzzy
+msgid "Please enter the phone number of the second contact person."
+msgstr ""
+"Veuillez entrer le numéro de téléphone de la deuxième personne-ressource."
+
+#: cpt/church-ministries.php:10
+#, fuzzy
+msgid "Ministry"
+msgstr "Ministère"
+
+#: cpt/church-people.php:16
+#, fuzzy
+msgid "Enter information for you church staff."
+msgstr "Entrez les informations pour votre personnel de l'église."
+
+#: cpt/church-people.php:42
+#, fuzzy
+msgid ""
+"Staff will be displayed in the same order they are entered, i.e. the first "
+"entered will be the first shown."
+msgstr ""
+"Le personnel sera affiché dans le même ordre de saisie, c'est-à-dire que le "
+"premier entré sera le premier affiché."
+
+#: cpt/church-people.php:55
+#, fuzzy
+msgctxt "The person's position within the church"
+msgid "Title"
+msgstr "< %title"
+
+#: cpt/church-people.php:67
+#, fuzzy
+msgid "Staff Phone Number"
+msgstr "Numéro de téléphone du personnel"
+
+#: cpt/church-people.php:79
+msgid "Staff Email"
+msgstr "Courriel du personnel"
+
+#: cpt/church-people.php:89
+msgid "Profile"
+msgstr "Profil"
+
+#: cpt/church-people.php:92
+#, fuzzy
+msgid "Please provide a short profile for this person."
+msgstr "Veuillez fournir un Profil abrégé pour cette personne."
+
+#: cpt/church-sermons.php:10
+msgid "Sermon"
+msgstr "Enseignement"
+
+#: cpt/church-sermons.php:41
+msgctxt "taxonomy general name"
+msgid "Topics"
+msgstr "Sujets"
+
+#: cpt/church-sermons.php:42
+msgctxt "taxonomy singular name"
+msgid "Topic"
+msgstr "Sujet"
+
+#: cpt/church-sermons.php:43
+msgid "Search Topics"
+msgstr "Chercher les sujets"
+
+#: cpt/church-sermons.php:44
+msgid "All Topics"
+msgstr "Tous les sujets"
+
+#: cpt/church-sermons.php:45
+msgid "Parent Topic"
+msgstr "Sujet parent"
+
+#: cpt/church-sermons.php:46
+msgid "Parent Topic:"
+msgstr "Sujet parent:"
+
+#: cpt/church-sermons.php:47
+msgid "Edit Topic"
+msgstr "Modifier le sujet"
+
+#: cpt/church-sermons.php:48
+msgid "Update Topic"
+msgstr "Mettre à jour un sujet"
+
+#: cpt/church-sermons.php:49
+msgid "Add New Topic"
+msgstr "Ajouter un nouveau sujet"
+
+#: cpt/church-sermons.php:50
+msgid "New Topic Name"
+msgstr "Nouveau sujet"
+
+#: cpt/church-sermons.php:51
+msgid "Topics"
+msgstr "Sujets"
+
+#: cpt/church-sermons.php:73
+#, fuzzy
+msgid "Preached Date"
+msgstr "Date prêchée"
+
+#: cpt/church-sermons.php:76
+#, fuzzy
+msgid "Please choose the date on which the sermon was preached."
+msgstr "Veuillez choisir la date à laquelle le sermon a été prêché."
+
+#: cpt/church-sermons.php:84
+#, fuzzy
+msgid "Verse Reference"
+msgstr "Référence verset"
+
+#: cpt/church-sermons.php:97
+#, fuzzy
+msgid "Short Summary"
+msgstr "Résumé succinct"
+
+#: cpt/church-sermons.php:109
+msgid "Speaker"
+msgstr "Intervenant"
+
+#: cpt/church-sermons.php:121
+#, fuzzy
+msgid "Recording File"
+msgstr "Fichier d'enregistrement"
+
+#: cpt/church-verses.php:10
+#, fuzzy
+msgid "Verse"
+msgstr "Verset"
+
+#: cpt/church-verses.php:16
+#, fuzzy
+msgid "Please place the reference in the title field"
+msgstr "Veuillez placer la référence dans le champ de titre"
+
+#: cpt/church-verses.php:42
+#, fuzzy
+msgid ""
+"Please place the verse reference citation in the title field and the verse "
+"text in the main text area."
+msgstr ""
+"Veuillez placer la référence de verset dans le champ de titre et le texte de "
+"verset dans la zone de texte principale."
+
+#: lib/advanced-custom-fields/acf.php:51 lib/advanced-custom-fields/acf.php:530
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:213
+msgid "Advanced Custom Fields"
+msgstr "Champs personnalisés avancés"
+
+#: lib/advanced-custom-fields/acf.php:529
+msgid "Field&nbsp;Groups"
+msgstr "Champ&nbsp;Groupes"
+
+#: lib/advanced-custom-fields/acf.php:531
+msgid "Add New"
+msgstr "Ajouter"
+
+#: lib/advanced-custom-fields/acf.php:532
+msgid "Add New Field Group"
+msgstr "Ajouter un nouveau groupe de champs"
+
+#: lib/advanced-custom-fields/acf.php:533
+msgid "Edit Field Group"
+msgstr "Modifier le groupe de champs"
+
+#: lib/advanced-custom-fields/acf.php:534
+msgid "New Field Group"
+msgstr "Nouveau groupe de champs"
+
+#: lib/advanced-custom-fields/acf.php:535
+msgid "View Field Group"
+msgstr "Afficher le groupe de champs"
+
+#: lib/advanced-custom-fields/acf.php:536
+msgid "Search Field Groups"
+msgstr "Rechercher groupe de champs"
+
+#: lib/advanced-custom-fields/acf.php:537
+msgid "No Field Groups found"
+msgstr "Aucun groupes de champs trouvé"
+
+#: lib/advanced-custom-fields/acf.php:538
+msgid "No Field Groups found in Trash"
+msgstr "Aucun groupes de champs trouvés dans la corbeille"
+
+#: lib/advanced-custom-fields/acf.php:623
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:99
+msgid "Custom Fields"
+msgstr "Champs personnalisés"
+
+#: lib/advanced-custom-fields/acf.php:641
+#: lib/advanced-custom-fields/acf.php:644
+msgid "Field group updated."
+msgstr "Groupe de champs mis à jour."
+
+#: lib/advanced-custom-fields/acf.php:642
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: lib/advanced-custom-fields/acf.php:643
+msgid "Custom field deleted."
+msgstr "Champ personnalisé supprimé."
+
+#. translators: %s: date and time of the revision
+#: lib/advanced-custom-fields/acf.php:646
+#, php-format
+msgid "Field group restored to revision from %s"
+msgstr "Groupe de champs restauré depuis la révision du %s"
+
+#: lib/advanced-custom-fields/acf.php:647
+msgid "Field group published."
+msgstr "Groupe de champs publié."
+
+#: lib/advanced-custom-fields/acf.php:648
+msgid "Field group saved."
+msgstr "Groupe de champs sauvegardé."
+
+#: lib/advanced-custom-fields/acf.php:649
+msgid "Field group submitted."
+msgstr "Groupe de champs soumis."
+
+#: lib/advanced-custom-fields/acf.php:650
+msgid "Field group scheduled for."
+msgstr "Groupe de champs prévu pour."
+
+#: lib/advanced-custom-fields/acf.php:651
+msgid "Field group draft updated."
+msgstr "Brouillon du groupe de champs mis à jour."
+
+#: lib/advanced-custom-fields/acf.php:786
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: lib/advanced-custom-fields/acf.php:787
+msgid "Medium"
+msgstr "Moyen"
+
+#: lib/advanced-custom-fields/acf.php:788
+msgid "Large"
+msgstr "Grand"
+
+#: lib/advanced-custom-fields/acf.php:789
+msgid "Full"
+msgstr "Complet"
+
+#: lib/advanced-custom-fields/core/actions/export.php:26
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:58
+msgid "Error"
+msgstr "Erreur"
+
+#: lib/advanced-custom-fields/core/actions/export.php:33
+msgid "No ACF groups selected"
+msgstr "Aucuns groupes d’ACF sélectionnés"
+
+#: lib/advanced-custom-fields/core/api.php:1171
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: lib/advanced-custom-fields/core/api.php:1172
+msgid "Post updated"
+msgstr "Article mis à jour"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:42
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:306
+msgid "Add-ons"
+msgstr "Extensions"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:130
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:428
+msgid "Repeater Field"
+msgstr "Champ de duplication"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:131
+msgid "Create infinite rows of repeatable data with this versatile interface!"
+msgstr ""
+"Créer des lignes infinies de données reproductibles avec cette interface "
+"polyvalente !"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:137
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:436
+msgid "Gallery Field"
+msgstr "Champ galerie"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:138
+msgid "Create image galleries in a simple and intuitive interface!"
+msgstr "Créer des galeries d’images dans une interface simple et intuitive !"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:144
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:444
+msgid "Options Page"
+msgstr "Options de la Page"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:145
+msgid "Create global data to use throughout your website!"
+msgstr "Créer des données globales à utiliser tout au long de votre site !"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:151
+msgid "Flexible Content Field"
+msgstr "Champs de contenu flexible"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:152
+msgid "Create unique designs with a flexible content layout manager!"
+msgstr ""
+"Créer des modèles uniques avec un gestionnaire de contenu et de mise en page "
+"flexible !"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:161
+msgid "Gravity Forms Field"
+msgstr "Champ Gravity Form"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:162
+msgid "Creates a select field populated with Gravity Forms!"
+msgstr "Créer un champ de sélection populaire avec Gravity Forms !"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:168
+msgid "Date & Time Picker"
+msgstr "Sélecteur de date et d’heure"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:169
+msgid "jQuery date & time picker"
+msgstr "sélecteur de date & d’heure jQuery"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:175
+msgid "Google Map Extended"
+msgstr "Google Map Etendu"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:176
+msgid "Find addresses and coordinates of a desired location"
+msgstr "Retrouvez les adresses et les coordonnées de l’endroit désiré"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:182
+msgid "Contact Form 7 Field"
+msgstr "Champ de Contact Form 7"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:183
+msgid "Assign one or more contact form 7 forms to a post"
+msgstr "Affectez un ou plusieurs contacts Form 7 à un article"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:193
+msgid "Advanced Custom Fields Add-Ons"
+msgstr "Personnalisation avancée des champs des Add-Ons"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:196
+msgid ""
+"The following Add-ons are available to increase the functionality of the "
+"Advanced Custom Fields plugin."
+msgstr ""
+"Les modules complémentaires suivants sont disponibles pour augmenter la "
+"fonctionnalité du plugin ACF de la personnalisation avancée des champs."
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:197
+msgid ""
+"Each Add-on can be installed as a separate plugin (receives updates) or "
+"included in your theme (does not receive updates)."
+msgstr ""
+"Chaque extension peut être installée comme un module (reçoit des mises à "
+"jour) ou inclus dans votre thème (ne reçoit pas les mises à jour)."
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:219
+#: lib/advanced-custom-fields/core/controllers/addons.php:240
+msgid "Installed"
+msgstr "Installé"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:221
+msgid "Purchase & Install"
+msgstr "Acheter et installer"
+
+#: lib/advanced-custom-fields/core/controllers/addons.php:242
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:421
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:430
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:438
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:446
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:454
+msgid "Download"
+msgstr "Télécharger"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:50
+#: lib/advanced-custom-fields/core/controllers/export.php:159
+msgid "Export"
+msgstr "Exporter"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:216
+msgid "Export Field Groups"
+msgstr "Exporter les groupes de champs"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:221
+msgid "Field Groups"
+msgstr "Groupes de champs"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:222
+msgid "Select the field groups to be exported"
+msgstr "Sélectionnez les groupes de champs à exporter"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:239
+#: lib/advanced-custom-fields/core/controllers/export.php:252
+msgid "Export to XML"
+msgstr "Exporter au format XML"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:242
+#: lib/advanced-custom-fields/core/controllers/export.php:267
+msgid "Export to PHP"
+msgstr "Exporter en PHP"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:253
+msgid ""
+"ACF will create a .xml export file which is compatible with the native WP "
+"import plugin."
+msgstr ""
+"ACF va créer un fichier d’export .xml compatible avec le plugin d’import WP "
+"natif."
+
+#: lib/advanced-custom-fields/core/controllers/export.php:254
+msgid ""
+"Imported field groups <b>will</b> appear in the list of editable field "
+"groups. This is useful for migrating fields groups between Wp websites."
+msgstr ""
+"Les groupes de champs importés <b>apparaitront</b> dans la liste des groupes "
+"de champs modifiables. Ceci est utile pour la migration des groupes de "
+"champs entre les sites WP."
+
+#: lib/advanced-custom-fields/core/controllers/export.php:256
+msgid "Select field group(s) from the list and click \"Export XML\""
+msgstr ""
+"Sélectionner les groupes de champs dans la liste et cliquez sur \"Exporter "
+"en XML\""
+
+#: lib/advanced-custom-fields/core/controllers/export.php:257
+msgid "Save the .xml file when prompted"
+msgstr "Enregistrer le fichier .xml lorsque vous y êtes invité"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:258
+msgid "Navigate to Tools &raquo; Import and select WordPress"
+msgstr "Accéder aux outils &raquo; Importer et sélectionner WordPress"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:259
+msgid "Install WP import plugin if prompted"
+msgstr "Installer l'extension d’importation WordPress si vous y êtes invité"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:260
+msgid "Upload and import your exported .xml file"
+msgstr "Télécharger et importer votre fichier .xml que vous aviez exportez"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:261
+msgid "Select your user and ignore Import Attachments"
+msgstr "Choisir votre utilisateur et ignorer les pièces jointes attachées"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:262
+msgid "That's it! Happy WordPressing"
+msgstr "C’est tout! Bon WordPress"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:268
+msgid "ACF will create the PHP code to include in your theme."
+msgstr "ACF créera le code PHP à inclure dans votre thème."
+
+#: lib/advanced-custom-fields/core/controllers/export.php:269
+#: lib/advanced-custom-fields/core/controllers/export.php:310
+msgid ""
+"Registered field groups <b>will not</b> appear in the list of editable field "
+"groups. This is useful for including fields in themes."
+msgstr ""
+"Les groupes de champs enregistrés <b>n’apparaîtront pas</b> dans la liste "
+"des groupes de champs modifiables. Ceci est utile afin de les inclure dans "
+"les thèmes."
+
+#: lib/advanced-custom-fields/core/controllers/export.php:270
+#: lib/advanced-custom-fields/core/controllers/export.php:311
+msgid ""
+"Please note that if you export and register field groups within the same WP, "
+"you will see duplicate fields on your edit screens. To fix this, please move "
+"the original field group to the trash or remove the code from your functions."
+"php file."
+msgstr ""
+"Veuillez noter que si vous exportez et enregistrez des groupes de champs "
+"dans le même WordPress, vous verrez des champs dupliqués sur votre écran de "
+"modification. Afin de corriger ceci, veuillez déplacer le groupe de champs "
+"original vers la corbeille ou supprimer le code de votre fichier functions."
+"php."
+
+#: lib/advanced-custom-fields/core/controllers/export.php:272
+msgid "Select field group(s) from the list and click \"Create PHP\""
+msgstr ""
+"Sélectionner le(s) groupe(s) de champs dans la liste et cliquez sur \"Créer "
+"PHP\""
+
+#: lib/advanced-custom-fields/core/controllers/export.php:273
+#: lib/advanced-custom-fields/core/controllers/export.php:302
+msgid "Copy the PHP code generated"
+msgstr "Copier le code PHP généré"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:274
+#: lib/advanced-custom-fields/core/controllers/export.php:303
+msgid "Paste into your functions.php file"
+msgstr "Copiez-collez le code ci-dessous dans votre fichier functions.php"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:275
+#: lib/advanced-custom-fields/core/controllers/export.php:304
+msgid "To activate any Add-ons, edit and use the code in the first few lines."
+msgstr ""
+"Pour activer n’importe quelle extension, modifier et utiliser ce code dans "
+"les premières lignes."
+
+#: lib/advanced-custom-fields/core/controllers/export.php:295
+msgid "Export Field Groups to PHP"
+msgstr "Exporter les groupes de champs au format PHP"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:309
+msgid "Notes"
+msgstr "Notes"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:316
+msgid "Include in theme"
+msgstr "Inclure dans le thème"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:317
+msgid ""
+"The Advanced Custom Fields plugin can be included within a theme. To do so, "
+"move the ACF plugin inside your theme and add the following code to your "
+"functions.php file:"
+msgstr ""
+"L’extension ACF peut être incluse dans un thème. Pour ce faire, déplacer "
+"l'extension ACF dans votre thème et ajouter le code suivant dans votre "
+"fichier functions.php :"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:323
+msgid ""
+"To remove all visual interfaces from the ACF plugin, you can use a constant "
+"to enable lite mode. Add the following code to your functions.php file "
+"<b>before</b> the include_once code:"
+msgstr ""
+"Pour supprimer toutes les interfaces visuelles de l’extension ACF, vous "
+"pouvez utiliser une constante pour activer le mode lite. Ajouter le code "
+"suivant dans votre fichier functions.php <b>avant</b> le code include_once :"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:331
+msgid "Back to export"
+msgstr "Retouner à l’exportation"
+
+#: lib/advanced-custom-fields/core/controllers/export.php:400
+msgid "No field groups were selected"
+msgstr "Aucun groupe de champs n’a été sélectionné"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:359
+msgid "Move to trash. Are you sure?"
+msgstr "Mettre à la corbeille. Êtes-vous sûr?"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:360
+msgid "checked"
+msgstr "validé"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:361
+msgid "No toggle fields available"
+msgstr "Aucun champ de basculement disponible"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:362
+msgid "Field group title is required"
+msgstr "Champ titre de groupe est requis"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:363
+msgid "copy"
+msgstr "copier"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:364
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:62
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:159
+msgid "or"
+msgstr "ou"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:365
+#: lib/advanced-custom-fields/core/controllers/field_group.php:397
+#: lib/advanced-custom-fields/core/controllers/field_group.php:459
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:148
+msgid "Fields"
+msgstr "Champs"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:366
+msgid "Parent fields"
+msgstr "Champs parents"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:367
+msgid "Sibling fields"
+msgstr "Champs de fratries"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:368
+msgid "Hide / Show All"
+msgstr "Masquer ou Afficher tout"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:399
+msgid "Options"
+msgstr "Options"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:461
+msgid "Show Field Key:"
+msgstr "Afficher le champ clé :"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:462
+#: lib/advanced-custom-fields/core/fields/page_link.php:138
+#: lib/advanced-custom-fields/core/fields/page_link.php:159
+#: lib/advanced-custom-fields/core/fields/post_object.php:340
+#: lib/advanced-custom-fields/core/fields/post_object.php:361
+#: lib/advanced-custom-fields/core/fields/select.php:224
+#: lib/advanced-custom-fields/core/fields/select.php:243
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:499
+#: lib/advanced-custom-fields/core/fields/user.php:332
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:345
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:195
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:218
+msgid "No"
+msgstr "Non"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:463
+#: lib/advanced-custom-fields/core/fields/page_link.php:137
+#: lib/advanced-custom-fields/core/fields/page_link.php:158
+#: lib/advanced-custom-fields/core/fields/post_object.php:339
+#: lib/advanced-custom-fields/core/fields/post_object.php:360
+#: lib/advanced-custom-fields/core/fields/select.php:223
+#: lib/advanced-custom-fields/core/fields/select.php:242
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:498
+#: lib/advanced-custom-fields/core/fields/user.php:331
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:344
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:194
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:217
+msgid "Yes"
+msgstr "Oui"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:635
+msgid "Front Page"
+msgstr "Page d’accueil"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:636
+msgid "Posts Page"
+msgstr "Page des articles"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:637
+msgid "Top Level Page (parent of 0)"
+msgstr "Page de plus haut niveau (parent de 0)"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:638
+msgid "Parent Page (has children)"
+msgstr "Page parent (possède des enfants)"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:639
+msgid "Child Page (has parent)"
+msgstr "Page enfant (possède des parents)"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:647
+msgid "Default Template"
+msgstr "Modèle par défaut"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:729
+msgid "Published"
+msgstr "Publié"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:730
+msgid "Pending Review"
+msgstr "En attente de validation"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:731
+msgid "Draft"
+msgstr "Brouillon"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:732
+msgid "Future"
+msgstr "Futur"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:733
+msgid "Private"
+msgstr "Privé"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:734
+msgid "Revision"
+msgstr "Révision"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:735
+msgid "Trash"
+msgstr "Corbeille"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:748
+msgid "Super Admin"
+msgstr "Super-admin"
+
+#: lib/advanced-custom-fields/core/controllers/field_group.php:763
+#: lib/advanced-custom-fields/core/controllers/field_group.php:784
+#: lib/advanced-custom-fields/core/controllers/field_group.php:791
+#: lib/advanced-custom-fields/core/fields/file.php:186
+#: lib/advanced-custom-fields/core/fields/image.php:177
+#: lib/advanced-custom-fields/core/fields/page_link.php:109
+#: lib/advanced-custom-fields/core/fields/post_object.php:286
+#: lib/advanced-custom-fields/core/fields/post_object.php:310
+#: lib/advanced-custom-fields/core/fields/relationship.php:582
+#: lib/advanced-custom-fields/core/fields/relationship.php:606
+#: lib/advanced-custom-fields/core/fields/user.php:276
+msgid "All"
+msgstr "Tout"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:147
+#: widgets/church-verses-widget.php:75
+#, fuzzy
+msgid "Title"
+msgstr "< %title"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:215
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:252
+msgid "Changelog"
+msgstr "Changelog"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:216
+#, php-format
+msgid "See what's new in %1$sversion %2$s%3$s"
+msgstr "Voyez ce qu'il y a de neuf dans la %1$sversion %2$s%3$s"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:218
+msgid "Resources"
+msgstr "Ressources"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:220
+msgid "Getting Started"
+msgstr "Commencer"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:221
+msgid "Field Types"
+msgstr "Types de champ"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:222
+msgid "Functions"
+msgstr "Fonctions"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:223
+msgid "Actions"
+msgstr "Actions"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:224
+#: lib/advanced-custom-fields/core/fields/relationship.php:625
+msgid "Filters"
+msgstr "Filtres"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:225
+msgid "'How to' guides"
+msgstr "Guides ‘comment faire’"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:226
+msgid "Tutorials"
+msgstr "Tutoriels"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:231
+msgid "Created by"
+msgstr "Créé par"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:243
+msgid "Welcome to Advanced Custom Fields"
+msgstr "Bienvenue dans les champs personnalisés avancés"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:244
+msgid "Thank you for updating to the latest version!"
+msgstr "Merci d'avoir mis à jour vers la dernière version !"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:244
+#, php-format
+msgid ""
+"ACF %s is more polished and enjoyable than ever before. We hope you like it."
+msgstr ""
+"ACF %s est plus joli et plus agréable que jamais auparavant. Nous espérons "
+"qu’il vous plaira."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:251
+msgid "What’s New"
+msgstr "Quoi de Neuf"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:254
+msgid "Download Add-ons"
+msgstr "Télécharger des extensions"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:308
+msgid "Activation codes have grown into plugins!"
+msgstr "Les codes d’activation sont devenus des extensions !"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:309
+msgid ""
+"Add-ons are now activated by downloading and installing individual plugins. "
+"Although these plugins will not be hosted on the wordpress.org repository, "
+"each Add-on will continue to receive updates in the usual way."
+msgstr ""
+"Les extensions sont maintenant activés par téléchargement et l’installation "
+"d’extensions individuelles. Bien que ces extensions ne seront pas hébergés "
+"sur le référentiel wordpress.org, chaque modules supplémentaire continue à "
+"recevoir des mises à jour de la manière habituelle."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:315
+msgid "All previous Add-ons have been successfully installed"
+msgstr ""
+"Tous les modules supplémentaires précédents ont été installés avec succès"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:319
+msgid "This website uses premium Add-ons which need to be downloaded"
+msgstr ""
+"Ce site web utilise des modules supplémentaires Premium qui nécessitent "
+"d’être téléchargés"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:319
+msgid "Download your activated Add-ons"
+msgstr "Télécharger vos Add-ons activés"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:324
+msgid ""
+"This website does not use premium Add-ons and will not be affected by this "
+"change."
+msgstr ""
+"Ce site web n’utilise pas de modules supplémentaires premium et ne sera pas "
+"affecté par ce changement."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:334
+msgid "Easier Development"
+msgstr "Développement facilité"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:336
+msgid "New Field Types"
+msgstr "Nouveaux types de champ"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:338
+msgid "Taxonomy Field"
+msgstr "Taxonomie du champ"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:339
+msgid "User Field"
+msgstr "Champ utilisateur"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:340
+msgid "Email Field"
+msgstr "Champ d’e-mail"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:341
+msgid "Password Field"
+msgstr "Champ mot de passe"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:343
+msgid "Custom Field Types"
+msgstr "Types de champ personnalisé"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:344
+msgid ""
+"Creating your own field type has never been easier! Unfortunately, version 3 "
+"field types are not compatible with version 4."
+msgstr ""
+"Créer votre propre type de champ n’a jamais été aussi facile ! "
+"Malheureusement, les types de champ version 3 ne sont pas compatible avec la "
+"version 4."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:345
+#, php-format
+msgid ""
+"Migrating your field types is easy, please %sfollow this tutorial%s to learn "
+"more."
+msgstr ""
+"La migration de vos types de champs est simple. Veuillez suivre %sce tutoriel"
+"%s pour en savoir plus."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:347
+msgid "Actions &amp; Filters"
+msgstr "Actions &amp; Filtres"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:348
+#, php-format
+msgid ""
+"All actions & filters have received a major facelift to make customizing ACF "
+"even easier! Please %sread this guide%s to find the updated naming "
+"convention."
+msgstr ""
+"Toutes les actions & filtres ont reçu un lifting majeur pour faire "
+"personnaliser ACF encore plus facile ! Veuillez %slire ce guide%s pour "
+"trouver la convention de nommage mise à jour."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:350
+msgid "Preview draft is now working!"
+msgstr "La prévisualisation du brouillon fonctionne maintenant !"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:351
+msgid "This bug has been squashed along with many other little critters!"
+msgstr "Ce bug a été éradiqué avec beaucoup d’autres !"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:351
+msgid "See the full changelog"
+msgstr "Voir le journal des modifications complet"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:355
+msgid "Important"
+msgstr "Important"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:357
+msgid "Database Changes"
+msgstr "Modification de la base de données"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:358
+msgid ""
+"Absolutely <strong>no</strong> changes have been made to the database "
+"between versions 3 and 4. This means you can roll back to version 3 without "
+"any issues."
+msgstr ""
+"Absolument <strong>aucune</ strong> modifications n’a été apportées à la "
+"base de données entre les versions 3 et 4. Cela signifie que vous pouvez "
+"revenir à la version 3 sans aucun problème."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:360
+msgid "Potential Issues"
+msgstr "Problèmes potentiels"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:361
+#, php-format
+msgid ""
+"Due to the sizable changes surrounding Add-ons, field types and action/"
+"filters, your website may not operate correctly. It is important that you "
+"read the full %sMigrating from v3 to v4%s guide to view the full list of "
+"changes."
+msgstr ""
+"En raison des changements considérables réalisés sur les modules "
+"supplémentaires, les types de terrain et l’action/filtres, votre site "
+"Internet peut ne pas fonctionner correctement. Il est important que vous "
+"lisiez complètement le guide de %sMigrating from v3 to v4%s pour afficher la "
+"liste complète des changements."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:364
+msgid "Really Important!"
+msgstr "Vraiment Important !"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:364
+#, php-format
+msgid ""
+"If you updated the ACF plugin without prior knowledge of such changes, "
+"please roll back to the latest %sversion 3%s of this plugin."
+msgstr ""
+"Si vous mis à jour de l'extension ACF sans connaissance préalable de ces "
+"modifications, veuillez revenir à la dernière %sversion 3 %s de l’extension."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:369
+msgid "Thank You"
+msgstr "Merci"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:370
+msgid ""
+"A <strong>BIG</strong> thank you to everyone who has helped test the version "
+"4 beta and for all the support I have received."
+msgstr ""
+"Un <strong>grand</strong> merci à chaque personne ayant participé aux beta "
+"tests de la version 4 et pour tout le soutien que j’ai reçu."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:371
+msgid "Without you all, this release would not have been possible!"
+msgstr "Sans vous tous, cette version n’aurait pas été possible !"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:375
+msgid "Changelog for"
+msgstr "Journal des modifications pour"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:392
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:398
+msgid "Overview"
+msgstr "Aperçu"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:400
+msgid ""
+"Previously, all Add-ons were unlocked via an activation code (purchased from "
+"the ACF Add-ons store). New to v4, all Add-ons act as separate plugins which "
+"need to be individually downloaded, installed and updated."
+msgstr ""
+"Précédemment, toutes les extensions ont été débloquées grâce à un code "
+"d’activation (acheté depuis la boutique ACF Add-Ons). Nouveauté de la V4, "
+"toutes les extensions se comportent comme des extensions séparées qui ont "
+"besoin d’être téléchargées, installées et mises à jour individuellement."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:402
+msgid ""
+"This page will assist you in downloading and installing each available Add-"
+"on."
+msgstr ""
+"Cette page vous assistera dans le téléchargement et l’installation de chaque "
+"Add-On disponible."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:404
+msgid "Available Add-ons"
+msgstr "Modules supplémentaires disponibles"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:406
+msgid "The following Add-ons have been detected as activated on this website."
+msgstr ""
+"Les modules supplémentaires suivants ont été détectés comme activées sur ce "
+"site web."
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:419
+#: lib/advanced-custom-fields/core/fields/file.php:109
+msgid "Name"
+msgstr "Nom"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:420
+msgid "Activation Code"
+msgstr "Code d'activation"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:452
+msgid "Flexible Content"
+msgstr "Contenu flexible"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:462
+msgid "Installation"
+msgstr "Installation"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:464
+msgid "For each Add-on available, please perform the following:"
+msgstr ""
+"Pour chaque module supplémentaire disponible, veuillez suivre les "
+"instructions suivantes :"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:466
+msgid "Download the Add-on plugin (.zip file) to your desktop"
+msgstr ""
+"Télécharger l'extension (fichier .zip) sur le bureau de votre ordinateur"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:467
+#, php-format
+msgid "Navigate to %sPlugins > Add New > Upload%s"
+msgstr "Accédez aux %sExtension > Ajouter nouveau > Téléverser %s"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:468
+msgid "Use the uploader to browse, select and install your Add-on (.zip file)"
+msgstr ""
+"Utilisez le téléchargement pour explorer, sélectionner et installer votre "
+"module supplémentaire (fichier .zip)"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:469
+msgid ""
+"Once the plugin has been uploaded and installed, click the 'Activate Plugin' "
+"link"
+msgstr ""
+"Une fois que l'extension a chargée et installée, cliquez sur le lien Activer "
+"l'Extension"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:470
+msgid "The Add-on is now installed and activated!"
+msgstr "L'extension est maintenant installée et activée!"
+
+#: lib/advanced-custom-fields/core/controllers/field_groups.php:484
+msgid "Awesome. Let's get to work"
+msgstr "Génial. Commençons le travail"
+
+#: lib/advanced-custom-fields/core/controllers/input.php:63
+msgid "Expand Details"
+msgstr "Développer les détails"
+
+#: lib/advanced-custom-fields/core/controllers/input.php:64
+msgid "Collapse Details"
+msgstr "Réduire les détails"
+
+#: lib/advanced-custom-fields/core/controllers/input.php:67
+msgid "Validation Failed. One or more fields below are required."
+msgstr "Validation échouée. Un ou plusieurs des champs ci-dessous sont requis."
+
+#: lib/advanced-custom-fields/core/controllers/upgrade.php:77
+msgid "Upgrade"
+msgstr "Mise à jour"
+
+#: lib/advanced-custom-fields/core/controllers/upgrade.php:599
+msgid "Modifying field group options 'show on page'"
+msgstr "Modification les options du groupe de champs \"Afficher sur la page\""
+
+#: lib/advanced-custom-fields/core/controllers/upgrade.php:653
+msgid "Modifying field option 'taxonomy'"
+msgstr "Modifier l’option du champ \"taxonomie\""
+
+#: lib/advanced-custom-fields/core/controllers/upgrade.php:750
+msgid "Moving user custom fields from wp_options to wp_usermeta"
+msgstr ""
+"Transférer les champs utilisateurs personnalisés de wp_options vers "
+"wp_usermeta"
+
+#: lib/advanced-custom-fields/core/early-access.php:340
+msgid "(Early access enabled)"
+msgstr "(Accès rapide activé)"
+
+#: lib/advanced-custom-fields/core/fields/_base.php:124
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:74
+msgid "Basic"
+msgstr "Basique"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:19
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:475
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:20
+#: lib/advanced-custom-fields/core/fields/radio.php:19
+#: lib/advanced-custom-fields/core/fields/select.php:19
+#: lib/advanced-custom-fields/core/fields/true_false.php:20
+msgid "Choice"
+msgstr "Choix"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:146
+#: lib/advanced-custom-fields/core/fields/radio.php:147
+#: lib/advanced-custom-fields/core/fields/select.php:177
+msgid "Choices"
+msgstr "Choix"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:147
+#: lib/advanced-custom-fields/core/fields/select.php:178
+msgid "Enter each choice on a new line."
+msgstr "Entrez chaque choix sur une nouvelle ligne."
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:148
+#: lib/advanced-custom-fields/core/fields/select.php:179
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+"Pour plus de contrôle, vous pouvez spécifier à la fois une valeur et une "
+"étiquette comme ceci:"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:149
+#: lib/advanced-custom-fields/core/fields/radio.php:153
+#: lib/advanced-custom-fields/core/fields/select.php:180
+msgid "red : Red"
+msgstr "rouge: Rouge"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:149
+#: lib/advanced-custom-fields/core/fields/radio.php:154
+#: lib/advanced-custom-fields/core/fields/select.php:180
+msgid "blue : Blue"
+msgstr "bleu : Bleu"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:166
+#: lib/advanced-custom-fields/core/fields/color_picker.php:89
+#: lib/advanced-custom-fields/core/fields/email.php:106
+#: lib/advanced-custom-fields/core/fields/number.php:116
+#: lib/advanced-custom-fields/core/fields/radio.php:196
+#: lib/advanced-custom-fields/core/fields/select.php:197
+#: lib/advanced-custom-fields/core/fields/text.php:116
+#: lib/advanced-custom-fields/core/fields/textarea.php:103
+#: lib/advanced-custom-fields/core/fields/true_false.php:94
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:287
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:167
+#: lib/advanced-custom-fields/core/fields/select.php:198
+msgid "Enter each default value on a new line"
+msgstr "Entrer chaque valeur par défaut sur une nouvelle ligne"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:183
+#: lib/advanced-custom-fields/core/fields/message.php:20
+#: lib/advanced-custom-fields/core/fields/radio.php:212
+#: lib/advanced-custom-fields/core/fields/tab.php:20
+msgid "Layout"
+msgstr "Mise en page"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:194
+#: lib/advanced-custom-fields/core/fields/radio.php:223
+msgid "Vertical"
+msgstr "Vertical"
+
+#: lib/advanced-custom-fields/core/fields/checkbox.php:195
+#: lib/advanced-custom-fields/core/fields/radio.php:224
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: lib/advanced-custom-fields/core/fields/color_picker.php:19
+msgid "Color Picker"
+msgstr "Sélecteur de couleur"
+
+#: lib/advanced-custom-fields/core/fields/color_picker.php:20
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:20
+#: lib/advanced-custom-fields/core/fields/google-map.php:19
+msgid "jQuery"
+msgstr "jQuery"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:19
+msgid "Date Picker"
+msgstr "Sélecteur de date"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:55
+msgid "Done"
+msgstr "Terminé"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:56
+msgid "Today"
+msgstr "Aujourd’hui"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:59
+msgid "Show a different month"
+msgstr "Afficher un mois différent"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:126
+msgid "Save format"
+msgstr "Sauvegarder le format"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:127
+msgid ""
+"This format will determine the value saved to the database and returned via "
+"the API"
+msgstr ""
+"Ce format va déterminer la valeur sauvegardée dans la base de donnée et "
+"retournée via l’API"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+"\"yymmdd\" est le format d’enregistrement le plus polyvalent. En savoir plus"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+msgid "jQuery date formats"
+msgstr "formats de date jQuery"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:142
+msgid "Display format"
+msgstr "Format d’affichage"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:143
+msgid "This format will be seen by the user when entering a value"
+msgstr "Ce format va être vu par l’utilisateur lorsqu’il entrera une valeur"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+msgid ""
+"\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+"about"
+msgstr ""
+"« dd/mm/yy » ou « mm/dd/yy » sont les formats d’affichage les plus utilisés. "
+"En savoir plus"
+
+#: lib/advanced-custom-fields/core/fields/date_picker/date_picker.php:158
+msgid "Week Starts On"
+msgstr "La semaine débute&nbsp;le"
+
+#: lib/advanced-custom-fields/core/fields/dummy.php:19
+msgid "Dummy"
+msgstr "Factice"
+
+#: lib/advanced-custom-fields/core/fields/email.php:19
+#, fuzzy
+msgid "Email"
+msgstr "Email"
+
+#: lib/advanced-custom-fields/core/fields/email.php:107
+#: lib/advanced-custom-fields/core/fields/number.php:117
+#: lib/advanced-custom-fields/core/fields/text.php:117
+#: lib/advanced-custom-fields/core/fields/textarea.php:104
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:288
+msgid "Appears when creating a new post"
+msgstr "Apparaît à la création d’un nouvel article"
+
+#: lib/advanced-custom-fields/core/fields/email.php:123
+#: lib/advanced-custom-fields/core/fields/number.php:133
+#: lib/advanced-custom-fields/core/fields/password.php:105
+#: lib/advanced-custom-fields/core/fields/text.php:131
+#: lib/advanced-custom-fields/core/fields/textarea.php:118
+msgid "Placeholder Text"
+msgstr "Texte d'espace réservé"
+
+#: lib/advanced-custom-fields/core/fields/email.php:124
+#: lib/advanced-custom-fields/core/fields/number.php:134
+#: lib/advanced-custom-fields/core/fields/password.php:106
+#: lib/advanced-custom-fields/core/fields/text.php:132
+#: lib/advanced-custom-fields/core/fields/textarea.php:119
+msgid "Appears within the input"
+msgstr "Apparaît dans l’entrée"
+
+#: lib/advanced-custom-fields/core/fields/email.php:138
+#: lib/advanced-custom-fields/core/fields/number.php:148
+#: lib/advanced-custom-fields/core/fields/password.php:120
+#: lib/advanced-custom-fields/core/fields/text.php:146
+msgid "Prepend"
+msgstr "Ajouter avant"
+
+#: lib/advanced-custom-fields/core/fields/email.php:139
+#: lib/advanced-custom-fields/core/fields/number.php:149
+#: lib/advanced-custom-fields/core/fields/password.php:121
+#: lib/advanced-custom-fields/core/fields/text.php:147
+msgid "Appears before the input"
+msgstr "Apparaît avant l’entrée"
+
+#: lib/advanced-custom-fields/core/fields/email.php:153
+#: lib/advanced-custom-fields/core/fields/number.php:163
+#: lib/advanced-custom-fields/core/fields/password.php:135
+#: lib/advanced-custom-fields/core/fields/text.php:161
+msgid "Append"
+msgstr "Ajouter"
+
+#: lib/advanced-custom-fields/core/fields/email.php:154
+#: lib/advanced-custom-fields/core/fields/number.php:164
+#: lib/advanced-custom-fields/core/fields/password.php:136
+#: lib/advanced-custom-fields/core/fields/text.php:162
+msgid "Appears after the input"
+msgstr "Apparaît après l’entrée"
+
+#: lib/advanced-custom-fields/core/fields/file.php:19
+msgid "File"
+msgstr "Fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:20
+#: lib/advanced-custom-fields/core/fields/image.php:20
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:20
+msgid "Content"
+msgstr "Contenu"
+
+#: lib/advanced-custom-fields/core/fields/file.php:26
+msgid "Select File"
+msgstr "Choisir un fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:27
+msgid "Edit File"
+msgstr "Modifier le fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:28
+msgid "Update File"
+msgstr "Mettre à jour le fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:29
+#: lib/advanced-custom-fields/core/fields/image.php:30
+msgid "Uploaded to this post"
+msgstr "Téléversé sur cet article"
+
+#: lib/advanced-custom-fields/core/fields/file.php:113
+msgid "Size"
+msgstr "Taille"
+
+#: lib/advanced-custom-fields/core/fields/file.php:123
+msgid "No File Selected"
+msgstr "Aucun fichier sélectionné"
+
+#: lib/advanced-custom-fields/core/fields/file.php:123
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:153
+#: lib/advanced-custom-fields/core/fields/image.php:125
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:523
+msgid "Return Value"
+msgstr "Valeur de retour"
+
+#: lib/advanced-custom-fields/core/fields/file.php:164
+msgid "File Object"
+msgstr "Objet du fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:165
+msgid "File URL"
+msgstr "URL du fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:166
+msgid "File ID"
+msgstr "ID du fichier"
+
+#: lib/advanced-custom-fields/core/fields/file.php:175
+#: lib/advanced-custom-fields/core/fields/image.php:165
+msgid "Library"
+msgstr "Bibliothèque"
+
+#: lib/advanced-custom-fields/core/fields/file.php:187
+#: lib/advanced-custom-fields/core/fields/image.php:178
+msgid "Uploaded to post"
+msgstr "Téléchargé sur article"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:18
+msgid "Google Map"
+msgstr "Google Map"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:33
+msgid "Locating"
+msgstr "Localisation"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:34
+msgid "Sorry, this browser does not support geolocation"
+msgstr "Désolé, ce navigateur ne prend pas en charge la géolocalisation"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:120
+msgid "Clear location"
+msgstr "Effacer l’emplacement"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:125
+msgid "Find current location"
+msgstr "Trouver l’emplacement actuel"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:126
+msgid "Search for address..."
+msgstr "Rechercher une adresse …"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:162
+msgid "Center"
+msgstr "Centre"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:163
+msgid "Center the initial map"
+msgstr "Centrer la carte initiale"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:199
+msgid "Zoom"
+msgstr "Zoom"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:200
+msgid "Set the initial zoom level"
+msgstr "Définir le niveau de zoom initial"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:217
+msgid "Height"
+msgstr "Hauteur"
+
+#: lib/advanced-custom-fields/core/fields/google-map.php:218
+msgid "Customise the map height"
+msgstr "Personnalisez la hauteur de la carte"
+
+#: lib/advanced-custom-fields/core/fields/image.php:19
+msgid "Image"
+msgstr "Image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:27
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:28
+msgid "Edit Image"
+msgstr "Modifier l’image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:29
+msgid "Update Image"
+msgstr "Mettre à jour l’image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:90
+msgid "Remove"
+msgstr "Supprimer"
+
+#: lib/advanced-custom-fields/core/fields/image.php:91
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:108
+msgid "Edit"
+msgstr "Modifier"
+
+#: lib/advanced-custom-fields/core/fields/image.php:97
+msgid "No image selected"
+msgstr "Aucune image sélectionnée"
+
+#: lib/advanced-custom-fields/core/fields/image.php:97
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:126
+#: lib/advanced-custom-fields/core/fields/relationship.php:557
+msgid "Specify the returned value on front end"
+msgstr "Spécifiez la valeur renvoyée sur le frontal"
+
+#: lib/advanced-custom-fields/core/fields/image.php:136
+msgid "Image Object"
+msgstr "Objet de l’image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:137
+msgid "Image URL"
+msgstr "URL de l'image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:138
+msgid "Image ID"
+msgstr "ID de l’image"
+
+#: lib/advanced-custom-fields/core/fields/image.php:146
+msgid "Preview Size"
+msgstr "Taille de prévisualisation"
+
+#: lib/advanced-custom-fields/core/fields/image.php:147
+msgid "Shown when entering data"
+msgstr "Affiché lors de la saisie des données"
+
+#: lib/advanced-custom-fields/core/fields/image.php:166
+msgid "Limit the media library choice"
+msgstr "Limiter le choix de la bibliothèque multimédia"
+
+#: lib/advanced-custom-fields/core/fields/message.php:19
+#: lib/advanced-custom-fields/core/fields/message.php:70
+#: lib/advanced-custom-fields/core/fields/true_false.php:79
+msgid "Message"
+msgstr "Message"
+
+#: lib/advanced-custom-fields/core/fields/message.php:71
+msgid "Text &amp; HTML entered here will appear inline with the fields"
+msgstr ""
+"Le texte &amp; le code HTML saisi ici apparaitront en ligne avec les champs"
+
+#: lib/advanced-custom-fields/core/fields/message.php:72
+msgid "Please note that all text will first be passed through the wp function "
+msgstr ""
+"Merci de noter que tout le texte sera d'abord passé à travers la fonction WP "
+
+#: lib/advanced-custom-fields/core/fields/number.php:19
+msgid "Number"
+msgstr "Nombre"
+
+#: lib/advanced-custom-fields/core/fields/number.php:178
+msgid "Minimum Value"
+msgstr "Valeur minimum"
+
+#: lib/advanced-custom-fields/core/fields/number.php:194
+msgid "Maximum Value"
+msgstr "Valeur maximum"
+
+#: lib/advanced-custom-fields/core/fields/number.php:210
+msgid "Step Size"
+msgstr "Taille de l’étape"
+
+#: lib/advanced-custom-fields/core/fields/page_link.php:18
+msgid "Page Link"
+msgstr "Lien de la page"
+
+#: lib/advanced-custom-fields/core/fields/page_link.php:19
+#: lib/advanced-custom-fields/core/fields/post_object.php:19
+#: lib/advanced-custom-fields/core/fields/relationship.php:19
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:19
+#: lib/advanced-custom-fields/core/fields/user.php:19
+msgid "Relational"
+msgstr "Relationnel"
+
+#: lib/advanced-custom-fields/core/fields/page_link.php:103
+#: lib/advanced-custom-fields/core/fields/post_object.php:280
+#: lib/advanced-custom-fields/core/fields/relationship.php:576
+#: lib/advanced-custom-fields/core/fields/relationship.php:655
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:75
+msgid "Post Type"
+msgstr "Type d'article"
+
+#: lib/advanced-custom-fields/core/fields/page_link.php:127
+#: lib/advanced-custom-fields/core/fields/post_object.php:329
+#: lib/advanced-custom-fields/core/fields/select.php:214
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:489
+#: lib/advanced-custom-fields/core/fields/user.php:322
+msgid "Allow Null?"
+msgstr "Autoriser une valeur « null »?"
+
+#: lib/advanced-custom-fields/core/fields/page_link.php:148
+#: lib/advanced-custom-fields/core/fields/post_object.php:350
+#: lib/advanced-custom-fields/core/fields/select.php:233
+msgid "Select multiple values?"
+msgstr "Sélectionnez plusieurs valeurs?"
+
+#: lib/advanced-custom-fields/core/fields/password.php:19
+msgid "Password"
+msgstr "Mot de passe"
+
+#: lib/advanced-custom-fields/core/fields/post_object.php:18
+msgid "Post Object"
+msgstr "Objet de l'article"
+
+#: lib/advanced-custom-fields/core/fields/post_object.php:194
+#: lib/advanced-custom-fields/core/fields/relationship.php:164
+#, fuzzy
+msgid "(no title)"
+msgstr "< %title"
+
+#: lib/advanced-custom-fields/core/fields/post_object.php:304
+#: lib/advanced-custom-fields/core/fields/relationship.php:600
+msgid "Filter from Taxonomy"
+msgstr "Filtre de taxonomie"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:18
+msgid "Radio Button"
+msgstr "Bouton radio"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:105
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:91
+msgid "Other"
+msgstr "Autre"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:148
+msgid "Enter your choices one per line"
+msgstr "Saisir un choix par ligne"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:150
+msgid "Red"
+msgstr "Rouge"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:151
+msgid "Blue"
+msgstr "Bleu"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:175
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+"Ajouter 'les autres' pour un autre choix afin d'autoriser les valeurs "
+"personnalisées"
+
+#: lib/advanced-custom-fields/core/fields/radio.php:187
+msgid "Save 'other' values to the field's choices"
+msgstr "Enregistrer 'les autres' pour les valeurs dans les choix du champ"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:18
+msgid "Relationship"
+msgstr "Relation"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:29
+msgid "Maximum values reached ( {max} values )"
+msgstr "Valeurs maximales atteintes ( {max} values )"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:451
+msgid "Search..."
+msgstr "Rechercher..."
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:462
+msgid "Filter by post type"
+msgstr "Filtrer par type de publication"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:556
+msgid "Return Format"
+msgstr "Format de retour"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:567
+msgid "Post Objects"
+msgstr "Objets de l’article"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:568
+msgid "Post IDs"
+msgstr "ID d’article"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:634
+msgid "Search"
+msgstr "Rechercher"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:635
+msgid "Post Type Select"
+msgstr "Sélection du type d’article"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:643
+msgid "Elements"
+msgstr "Éléments"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:644
+msgid "Selected elements will be displayed in each result"
+msgstr "Les éléments sélectionnés seront affichés dans chaque résultat"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:653
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:106
+msgid "Featured Image"
+msgstr "Image à la une"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:654
+msgid "Post Title"
+msgstr "Titre de l'article"
+
+#: lib/advanced-custom-fields/core/fields/relationship.php:666
+msgid "Maximum posts"
+msgstr "Maximum d’articles"
+
+#: lib/advanced-custom-fields/core/fields/select.php:18
+#: lib/advanced-custom-fields/core/fields/select.php:109
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:480
+#: lib/advanced-custom-fields/core/fields/user.php:313
+msgid "Select"
+msgstr "Sélectionner"
+
+#: lib/advanced-custom-fields/core/fields/tab.php:19
+msgid "Tab"
+msgstr "Onglet"
+
+#: lib/advanced-custom-fields/core/fields/tab.php:68
+msgid ""
+"Use \"Tab Fields\" to better organize your edit screen by grouping your "
+"fields together under separate tab headings."
+msgstr ""
+"Utilisez \"Champs onglet\" pour mieux organiser votre écran d'édition en "
+"regroupant vos champs ensemble sous des onglets distincts."
+
+#: lib/advanced-custom-fields/core/fields/tab.php:69
+msgid ""
+"All the fields following this \"tab field\" (or until another \"tab field\" "
+"is defined) will be grouped together."
+msgstr ""
+"Tous les champs suivants ce \"champ de l'onglet\" (ou jusqu'à ce qu'un autre "
+"\"champ onglet\" soit défini) seront regroupés."
+
+#: lib/advanced-custom-fields/core/fields/tab.php:70
+msgid "Use multiple tabs to divide your fields into sections."
+msgstr "Utiliser des onglets multiples pour diviser vos champs en sections."
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:18
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:430
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:374
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:383
+msgid "None"
+msgstr "Aucun"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:464
+#: lib/advanced-custom-fields/core/fields/user.php:298
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:77
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:158
+msgid "Field Type"
+msgstr "Type de champ"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:474
+#: lib/advanced-custom-fields/core/fields/user.php:307
+msgid "Multiple Values"
+msgstr "Valeurs multiples"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:476
+#: lib/advanced-custom-fields/core/fields/user.php:309
+msgid "Multi Select"
+msgstr "Sélection multiple"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:478
+#: lib/advanced-custom-fields/core/fields/user.php:311
+msgid "Single Value"
+msgstr "Valeur unique"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:479
+msgid "Radio Buttons"
+msgstr "Boutons radio"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:508
+msgid "Load & Save Terms to Post"
+msgstr "Charger & sauvegarder conditions vers l’article"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:516
+msgid ""
+"Load value based on the post's terms and update the post's terms on save"
+msgstr ""
+"Charger la valeur fondée sur les termes de l’article et mettre à jour ces "
+"termes lors de l’enregistrement"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:533
+msgid "Term Object"
+msgstr "Objet du terme"
+
+#: lib/advanced-custom-fields/core/fields/taxonomy.php:534
+msgid "Term ID"
+msgstr "ID terme"
+
+#: lib/advanced-custom-fields/core/fields/text.php:19
+#, fuzzy
+msgid "Text"
+msgstr "Couleur du texte d'alerte"
+
+#: lib/advanced-custom-fields/core/fields/text.php:176
+#: lib/advanced-custom-fields/core/fields/textarea.php:164
+msgid "Formatting"
+msgstr "Mise en forme"
+
+#: lib/advanced-custom-fields/core/fields/text.php:177
+#: lib/advanced-custom-fields/core/fields/textarea.php:165
+msgid "Affects value on front end"
+msgstr "Attribuer la valeur sur l’interface publique"
+
+#: lib/advanced-custom-fields/core/fields/text.php:186
+#: lib/advanced-custom-fields/core/fields/textarea.php:174
+msgid "No formatting"
+msgstr "Pas de mise en forme ou formatage"
+
+#: lib/advanced-custom-fields/core/fields/text.php:187
+#: lib/advanced-custom-fields/core/fields/textarea.php:176
+msgid "Convert HTML into tags"
+msgstr "Convertir le HTML en étiquettes"
+
+#: lib/advanced-custom-fields/core/fields/text.php:195
+#: lib/advanced-custom-fields/core/fields/textarea.php:133
+msgid "Character Limit"
+msgstr "Limite de caractères"
+
+#: lib/advanced-custom-fields/core/fields/text.php:196
+#: lib/advanced-custom-fields/core/fields/textarea.php:134
+msgid "Leave blank for no limit"
+msgstr "Laisser blanc pour ne fixer aucune limite"
+
+#: lib/advanced-custom-fields/core/fields/textarea.php:19
+msgid "Text Area"
+msgstr "Zone de texte"
+
+#: lib/advanced-custom-fields/core/fields/textarea.php:148
+msgid "Rows"
+msgstr "Lignes"
+
+#: lib/advanced-custom-fields/core/fields/textarea.php:149
+msgid "Sets the textarea height"
+msgstr "Définir la hauteur de la zone de texte"
+
+#: lib/advanced-custom-fields/core/fields/textarea.php:175
+msgid "Convert new lines into &lt;br /&gt; tags"
+msgstr "Convertir les nouvelles lignes en étiquettes &lt;br /&gt"
+
+#: lib/advanced-custom-fields/core/fields/true_false.php:19
+msgid "True / False"
+msgstr "Vrai / Faux"
+
+#: lib/advanced-custom-fields/core/fields/true_false.php:80
+msgid "eg. Show extra content"
+msgstr "exemple : Montrer le contenu supplémentaire"
+
+#: lib/advanced-custom-fields/core/fields/user.php:18
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:94
+msgid "User"
+msgstr "Utilisateur"
+
+#: lib/advanced-custom-fields/core/fields/user.php:271
+msgid "Filter by role"
+msgstr "Filtrer par rôle"
+
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:19
+msgid "Wysiwyg Editor"
+msgstr "Editeur WYSIWYG"
+
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:302
+msgid "Toolbar"
+msgstr "Barre d’outils"
+
+#: lib/advanced-custom-fields/core/fields/wysiwyg.php:334
+msgid "Show Media Upload Buttons?"
+msgstr "Montrer les boutons d'upload de Media?"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:24
+msgid "New Field"
+msgstr "Nouveau champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:58
+msgid "Field type does not exist"
+msgstr "Le type de champ n’existe pas"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:74
+msgid "Field Order"
+msgstr "Ordre du champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:75
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:126
+msgid "Field Label"
+msgstr "Libellé du champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:76
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:142
+msgid "Field Name"
+msgstr "Nom du champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:78
+msgid "Field Key"
+msgstr "Champ clé"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:90
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+"Aucun champ. Cliquer sur le bouton <strong>+ Ajouter un champ</strong> pour "
+"créer votre premier champ."
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:105
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:108
+msgid "Edit this Field"
+msgstr "Modifier un champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:109
+msgid "Duplicate this Field"
+msgstr "Dupliquer ce champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:109
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:110
+msgid "Delete this Field"
+msgstr "Supprimer ce champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:110
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:127
+msgid "This is the name which will appear on the EDIT page"
+msgstr "Ceci est le nom qui apparaîtra sur la page d’édition"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:143
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr "Un seul mot, sans espace. Underscores et tirets autorisés"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:172
+msgid "Field Instructions"
+msgstr "Instructions pour le champs"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:173
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+"Instructions pour les auteurs. Montrez lors de la soumission des données"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:186
+msgid "Required?"
+msgstr "Obligatoire ?"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:209
+msgid "Conditional Logic"
+msgstr "Logique conditionnelle"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:260
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:117
+msgid "is equal to"
+msgstr "est égal à"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:261
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:118
+msgid "is not equal to"
+msgstr "n’est pas égal à"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:279
+msgid "Show this field when"
+msgstr "Montrer ce champ lorsque"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:285
+msgid "all"
+msgstr "tout"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:286
+msgid "any"
+msgstr "tout"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:289
+msgid "these rules are met"
+msgstr "ces règles sont à respecter"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:303
+msgid "Close Field"
+msgstr "Fermer le champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:316
+msgid "Drag and drop to reorder"
+msgstr "Glisser et déposer pour réorganiser"
+
+#: lib/advanced-custom-fields/core/views/meta_box_fields.php:317
+msgid "+ Add Field"
+msgstr "+ Ajouter un champ"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:48
+msgid "Rules"
+msgstr "Règles"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:49
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+"Créer un ensemble de règles pour déterminer quels écrans d'édition "
+"utiliseront ces champs personnalisés avancés"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:60
+msgid "Show this field group if"
+msgstr "Afficher ce groupe de champs si"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:76
+msgid "Logged in User Type"
+msgstr "Connecté dans type d'utilisateur"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:78
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:79
+msgid "Post"
+msgstr "Article"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:80
+msgid "Post Category"
+msgstr "Catégorie de l'article"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:81
+msgid "Post Format"
+msgstr "Format de l'article"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:82
+msgid "Post Status"
+msgstr "Statut de l’article"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:83
+msgid "Post Taxonomy"
+msgstr "Taxonomie de l’article"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:85
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:86
+msgid "Page"
+msgstr "Page"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:87
+msgid "Page Type"
+msgstr "Type de la page"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:88
+msgid "Page Parent"
+msgstr "Page parent"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:89
+msgid "Page Template"
+msgstr "Modèle de page"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:92
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:93
+msgid "Taxonomy Term"
+msgstr "Terme de taxonomie"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:146
+msgid "and"
+msgstr "et"
+
+#: lib/advanced-custom-fields/core/views/meta_box_location.php:161
+msgid "Add rule group"
+msgstr "Ajouter un groupe de règles"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:25
+msgid "Order No."
+msgstr "N° de commande."
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:26
+msgid "Field groups are created in order <br />from lowest to highest"
+msgstr ""
+"Les groupes de champs sont créés dans l’ordre <br>du plus faible au plus "
+"grand"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:42
+msgid "Position"
+msgstr "Position"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:52
+msgid "High (after title)"
+msgstr "Élevé (après le titre)"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:53
+msgid "Normal (after content)"
+msgstr "Normal (après le contenu)"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:54
+msgid "Side"
+msgstr "Côté"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:64
+msgid "Style"
+msgstr "Style"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:74
+msgid "Seamless (no metabox)"
+msgstr "Transparent (non metabox)"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:75
+msgid "Standard (WP metabox)"
+msgstr "Standard (métabox WP)"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:84
+msgid "Hide on screen"
+msgstr "Masquer à l’écran"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:85
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+msgstr ""
+"<b>Sélectionner</b> des éléments pour les<b>masquer</b> sur l’écran de "
+"modification"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:86
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used. (the one with the lowest order number)"
+msgstr ""
+"Si plusieurs groupes de champs apparaissent sur un écran de modification, la "
+"première option d’un groupe de champ sera utilisée. (celle avec le numéro de "
+"commande le plus bas)"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:96
+msgid "Permalink"
+msgstr "Permalien"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:97
+msgid "Content Editor"
+msgstr "Éditeur de contenu"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:98
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:100
+msgid "Discussion"
+msgstr "Discussion"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:101
+msgid "Comments"
+msgstr "Commentaires"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:102
+msgid "Revisions"
+msgstr "Révisions"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:103
+msgid "Slug"
+msgstr "Identifiant"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:104
+msgid "Author"
+msgstr "Auteur"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:105
+msgid "Format"
+msgstr "Format"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:107
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:108
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: lib/advanced-custom-fields/core/views/meta_box_options.php:109
+msgid "Send Trackbacks"
+msgstr "Envoyer des rétroliens"
+
+#: widgets/church-verses-widget.php:11
+#, fuzzy
+msgid "Widget for displaying random Bible verses"
+msgstr "Widget pour afficher des versets bibliques aléatoires"
+
+#: widgets/church-verses-widget.php:13
+#, fuzzy
+msgid "Church Verses Widget"
+msgstr "Widget versets de l'église"
+
+#. Plugin Name of the plugin/theme
+msgid "Church Options"
+msgstr "Options Eglise"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"An all-in-one solution for churches to add the custom post types and custom "
+"fields they need for an effective website."
+msgstr ""
+"Une solution tout-en-un pour les églises pour ajouter les types de poste "
+"personnalisés et les champs personnalisés dont ils ont besoin pour un site "
+"Web efficace."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Tim Lawson @ Quixotic Studios"
+msgstr "Tim Lawson @ quixotic Studios"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://quixoticstudios.com/resources"
+msgstr "http://quixoticstudios.com/resources"
